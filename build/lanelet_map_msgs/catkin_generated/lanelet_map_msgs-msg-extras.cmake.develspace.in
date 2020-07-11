@@ -1,0 +1,2 @@
+set(lanelet_map_msgs_MESSAGE_FILES "/home/bit2/0603_project/tang_ws/src/msgs/lanelet_map_msgs/msg/Node.msg;/home/bit2/0603_project/tang_ws/src/msgs/lanelet_map_msgs/msg/Way.msg;/home/bit2/0603_project/tang_ws/src/msgs/lanelet_map_msgs/msg/Regulatory.msg;/home/bit2/0603_project/tang_ws/src/msgs/lanelet_map_msgs/msg/Lanelet.msg;/home/bit2/0603_project/tang_ws/src/msgs/lanelet_map_msgs/msg/LaneletMap.msg")
+set(lanelet_map_msgs_SERVICE_FILES "")

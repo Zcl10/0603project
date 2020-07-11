@@ -1,0 +1,8 @@
+prefix=/home/bit2/0603_project/tang_ws/install
+
+Name: waypoint_manager
+Description: Description of waypoint_manager
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: roscpp sensor_driver_msgs lanelet_map_msgs nav_msgs opt_utils anm_msgs roslib transform_tools tinyspline_ros

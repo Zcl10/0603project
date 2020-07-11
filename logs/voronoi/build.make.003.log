@@ -1,0 +1,4 @@
+[ 25%] Built target voronoi_lib
+[ 50%] Built target voronoi_function_test
+[ 75%] Built target voronoi_test_node
+[100%] Built target voronoi_benchmark

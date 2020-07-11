@@ -1,0 +1,8 @@
+prefix=/home/bit2/0603_project/tang_ws/install
+
+Name: voronoi
+Description: Description of voronoi
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lvoronoi_lib
+Requires: roscpp internal_grid_map grid_map_sdf

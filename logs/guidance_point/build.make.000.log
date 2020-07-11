@@ -1,0 +1,6 @@
+[35m[1mScanning dependencies of target guidance_point_lib[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/guidance_point_lib.dir/src/guidance_point_selection.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/guidance_point_lib.dir/src/laser_beam_method.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/guidance_point_lib.dir/src/cg_solver.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library /home/bit2/0603_project/tang_ws/devel/.private/guidance_point/lib/libguidance_point_lib.so[0m
+[100%] Built target guidance_point_lib

@@ -1,0 +1,154 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/eagle/CW/hr/cw_project/ivrc_ws/src/planning/a_star_double_xml/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7b960/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7b960.dir/build.make CMakeFiles/cmTC_7b960.dir/build
+make[1]: Entering directory '/home/eagle/CW/hr/cw_project/ivrc_ws/src/planning/a_star_double_xml/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7b960.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_7b960.dir/CheckSymbolExists.c.o   -c /home/eagle/CW/hr/cw_project/ivrc_ws/src/planning/a_star_double_xml/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_7b960
+/home/eagle/clion-2018.3.3/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7b960.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_7b960.dir/CheckSymbolExists.c.o  -o cmTC_7b960 
+CMakeFiles/cmTC_7b960.dir/CheckSymbolExists.c.o：在函数‘main’中：
+CheckSymbolExists.c:(.text+0x16)：对‘pthread_create’未定义的引用
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_7b960.dir/build.make:86: recipe for target 'cmTC_7b960' failed
+make[1]: *** [cmTC_7b960] Error 1
+make[1]: Leaving directory '/home/eagle/CW/hr/cw_project/ivrc_ws/src/planning/a_star_double_xml/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_7b960/fast' failed
+make: *** [cmTC_7b960/fast] Error 2
+
+File /home/eagle/CW/hr/cw_project/ivrc_ws/src/planning/a_star_double_xml/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/eagle/CW/hr/cw_project/ivrc_ws/src/planning/a_star_double_xml/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6010f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6010f.dir/build.make CMakeFiles/cmTC_6010f.dir/build
+make[1]: Entering directory '/home/eagle/CW/hr/cw_project/ivrc_ws/src/planning/a_star_double_xml/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6010f.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_6010f.dir/CheckFunctionExists.c.o   -c /home/eagle/clion-2018.3.3/bin/cmake/linux/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6010f
+/home/eagle/clion-2018.3.3/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6010f.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_6010f.dir/CheckFunctionExists.c.o  -o cmTC_6010f -lpthreads 
+/usr/bin/ld: 找不到 -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_6010f.dir/build.make:86: recipe for target 'cmTC_6010f' failed
+make[1]: *** [cmTC_6010f] Error 1
+make[1]: Leaving directory '/home/eagle/CW/hr/cw_project/ivrc_ws/src/planning/a_star_double_xml/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_6010f/fast' failed
+make: *** [cmTC_6010f/fast] Error 2
+
+
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /home/eagle/CW/hr/cw_project/ivrc_ws/src/planning/a_star_double_xml/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8ca7d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8ca7d.dir/build.make CMakeFiles/cmTC_8ca7d.dir/build
+make[1]: Entering directory '/home/eagle/CW/hr/cw_project/ivrc_ws/src/planning/a_star_double_xml/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8ca7d.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -I/usr/include/qt4  -std=gnu++11     -o CMakeFiles/cmTC_8ca7d.dir/CheckSymbolExists.cxx.o -c /home/eagle/CW/hr/cw_project/ivrc_ws/src/planning/a_star_double_xml/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/eagle/CW/hr/cw_project/ivrc_ws/src/planning/a_star_double_xml/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/eagle/CW/hr/cw_project/ivrc_ws/src/planning/a_star_double_xml/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^
+CMakeFiles/cmTC_8ca7d.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_8ca7d.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_8ca7d.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory '/home/eagle/CW/hr/cw_project/ivrc_ws/src/planning/a_star_double_xml/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_8ca7d/fast' failed
+make: *** [cmTC_8ca7d/fast] Error 2
+
+File /home/eagle/CW/hr/cw_project/ivrc_ws/src/planning/a_star_double_xml/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /home/eagle/CW/hr/cw_project/ivrc_ws/src/planning/a_star_double_xml/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_25e84/fast"
+/usr/bin/make -f CMakeFiles/cmTC_25e84.dir/build.make CMakeFiles/cmTC_25e84.dir/build
+make[1]: Entering directory '/home/eagle/CW/hr/cw_project/ivrc_ws/src/planning/a_star_double_xml/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_25e84.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -I/usr/include/qt4  -std=gnu++11     -o CMakeFiles/cmTC_25e84.dir/CheckSymbolExists.cxx.o -c /home/eagle/CW/hr/cw_project/ivrc_ws/src/planning/a_star_double_xml/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/eagle/CW/hr/cw_project/ivrc_ws/src/planning/a_star_double_xml/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/eagle/CW/hr/cw_project/ivrc_ws/src/planning/a_star_double_xml/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^
+CMakeFiles/cmTC_25e84.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_25e84.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_25e84.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory '/home/eagle/CW/hr/cw_project/ivrc_ws/src/planning/a_star_double_xml/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_25e84/fast' failed
+make: *** [cmTC_25e84/fast] Error 2
+
+File /home/eagle/CW/hr/cw_project/ivrc_ws/src/planning/a_star_double_xml/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /home/eagle/CW/hr/cw_project/ivrc_ws/src/planning/a_star_double_xml/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f84cd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f84cd.dir/build.make CMakeFiles/cmTC_f84cd.dir/build
+make[1]: Entering directory '/home/eagle/CW/hr/cw_project/ivrc_ws/src/planning/a_star_double_xml/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f84cd.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -I/usr/include/qt4  -std=gnu++11     -o CMakeFiles/cmTC_f84cd.dir/CheckSymbolExists.cxx.o -c /home/eagle/CW/hr/cw_project/ivrc_ws/src/planning/a_star_double_xml/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/eagle/CW/hr/cw_project/ivrc_ws/src/planning/a_star_double_xml/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/eagle/CW/hr/cw_project/ivrc_ws/src/planning/a_star_double_xml/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^
+CMakeFiles/cmTC_f84cd.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_f84cd.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_f84cd.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory '/home/eagle/CW/hr/cw_project/ivrc_ws/src/planning/a_star_double_xml/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_f84cd/fast' failed
+make: *** [cmTC_f84cd/fast] Error 2
+
+File /home/eagle/CW/hr/cw_project/ivrc_ws/src/planning/a_star_double_xml/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+

@@ -1,0 +1,4 @@
+Symlinking /home/bit2/0603_project/tang_ws/devel/lib/libopt_utils.so
+Symlinking /home/bit2/0603_project/tang_ws/devel/lib/pkgconfig/opt_utils.pc
+Symlinking /home/bit2/0603_project/tang_ws/devel/share/opt_utils/cmake/opt_utilsConfig.cmake
+Symlinking /home/bit2/0603_project/tang_ws/devel/share/opt_utils/cmake/opt_utilsConfig-version.cmake

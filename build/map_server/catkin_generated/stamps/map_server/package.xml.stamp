@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<package  format="2">
+  <name>map_server</name>
+  <version>1.0.0</version>
+
+  <description>
+	This is a format conversion from RCIV grid map format to ETH grid_map format
+  </description>
+
+  <maintainer email="ytiangsky@gmail.com">Tian Yang</maintainer>
+
+  <license>BSD</license>
+
+  <author email="ytiangsky@gmail.com">Tian Yang</author>
+  
+   <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>roscpp</depend>
+  <depend>iv_slam_ros_msgs</depend>
+  <depend>nav_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>roslib</depend>
+  <depend>std_msgs</depend>
+  <depend>grid_map_ros</depend>
+  <depend>opt_utils</depend>
+  <depend>sensor_driver_msgs</depend>
+  <depend>visualization_msgs</depend>
+  <depend>internal_grid_map</depend>
+  <depend>lanelet_map_msgs</depend>
+  <depend>plan2control_msgs</depend>
+  <depend>transform_tools</depend>
+  <depend>anm_msgs</depend>
+  <depend>tf2</depend>
+  <depend>message_filters</depend>
+
+</package>

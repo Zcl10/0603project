@@ -1,0 +1,18 @@
+In file included from [01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/include/lateral_control_core.h:7:0[m[K,
+                 from [01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/src/lateral_control_core.cpp:1[m[K:
+[01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/include/ipopt_solver.h:110:7:[m[K [01;35m[Kwarning: [m[K‘[01m[KSplineIpoptSolver[m[K’ has a field ‘[01m[KSplineIpoptSolver::x_spline[m[K’ whose type uses the anonymous namespace
+ class SplineIpoptSolver : public IpoptSolver {
+[01;32m[K       ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/include/ipopt_solver.h:110:7:[m[K [01;35m[Kwarning: [m[K‘[01m[KSplineIpoptSolver[m[K’ has a field ‘[01m[KSplineIpoptSolver::y_spline[m[K’ whose type uses the anonymous namespace
+[01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/include/ipopt_solver.h:110:7:[m[K [01;35m[Kwarning: [m[K‘[01m[KSplineIpoptSolver[m[K’ has a field ‘[01m[KSplineIpoptSolver::k_spline[m[K’ whose type uses the anonymous namespace
+[01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/src/lateral_control_core.cpp:[m[K In member function ‘[01m[Kbool LateralControlCore::wayPoint2VehicleCoords(std::vector<double>*, std::vector<double>*)[m[K’:
+[01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/src/lateral_control_core.cpp:266:31:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [-Wsign-compare]
+     for (int j = index_min; j < p_trajectory->points.size(); j++) {
+[01;32m[K                               ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/src/lateral_control_core.cpp:[m[K In member function ‘[01m[Kbool LateralControlCore::calculateTrackingError(const std::vector<double>&, const std::vector<double>&, const std::vector<double>&)[m[K’:
+[01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/src/lateral_control_core.cpp:296:23:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [-Wsign-compare]
+     for (int i = 0; i < local_path_x.size(); ++i) {
+[01;32m[K                       ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/src/lateral_control_core.cpp:303:36:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [-Wsign-compare]
+     if (min_index < 0 || min_index >= local_path_x.size() - 1)
+[01;32m[K                                    ^[m[K

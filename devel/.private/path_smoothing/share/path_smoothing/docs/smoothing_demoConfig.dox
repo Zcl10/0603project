@@ -1,0 +1,13 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~cg_heading_term_coe" : \b [double] cg method coe min: 0.0, default: 1.0, max: 10.0
+- \b "~cg_curvature_term_coe" : \b [double] cg method coe min: 0.0, default: 0.0, max: 5.0
+- \b "~cg_obstacle_term_coe" : \b [double] cg method coe min: 0.0, default: 2.0, max: 5.0
+- \b "~gp_obs_sigma" : \b [double] gp method coe min: 0.0, default: 0.03, max: 1.0
+- \b "~gp_vehicle_dynamic_sigma" : \b [double] gp method coe min: 0.0, default: 0.02, max: 1.0
+- \b "~gp_dt" : \b [double] gp method coe min: 0.0, default: 0.4, max: 5.0
+- \b "~distance_threshold" : \b [double] gp method coe min: 0.0, default: 2.5, max: 5.0
+- \b "~cg_solver_type" : \b [int] solver enum min: -2147483648, default: 1, max: 2147483647
+

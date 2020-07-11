@@ -1,0 +1,8 @@
+prefix=/home/bit2/0603_project/tang_ws/install
+
+Name: tinyspline_ros
+Description: Description of tinyspline_ros
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -ltinyspline_ros_cpp
+Requires: 

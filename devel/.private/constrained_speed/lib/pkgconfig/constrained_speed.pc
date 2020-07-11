@@ -1,0 +1,8 @@
+prefix=/home/bit2/0603_project/tang_ws/devel/.private/constrained_speed
+
+Name: constrained_speed
+Description: Description of constrained_speed
+Version: 0.0.0
+Cflags: -I/home/bit2/0603_project/tang_ws/devel/.private/constrained_speed/include -I/home/bit2/0603_project/tang_ws/src/control/constrained_speed/include
+Libs: -L${prefix}/lib 
+Requires: roscpp plan2control_msgs speed_debug_msgs lanelet_map_msgs control_msgs movobsplan_msgs dbw_mkz_msgs anm_msgs

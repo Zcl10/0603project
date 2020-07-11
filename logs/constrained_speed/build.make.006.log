@@ -1,0 +1,6 @@
+[ 16%] Built target constrained_speed_genparam
+[ 50%] Built target constrained_speed_gencfg
+[35m[1mScanning dependencies of target constrained_speed[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/constrained_speed.dir/src/CSMethod2.cpp.o[0m
+[ 83%] [32m[1mLinking CXX executable /home/bit2/0603_project/tang_ws/devel/.private/constrained_speed/lib/constrained_speed/constrained_speed[0m
+[100%] Built target constrained_speed

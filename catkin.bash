@@ -1,0 +1,1 @@
+catkin build chassis_testing ecu_communication path_tracking constrained_speed waypoint_manager map_server local_path_planner

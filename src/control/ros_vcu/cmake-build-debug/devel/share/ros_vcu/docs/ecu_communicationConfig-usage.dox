@@ -1,0 +1,7 @@
+\subsubsection usage Usage
+\verbatim
+<node name="ecu_communication" pkg="ros_vcu" type="ecu_communication">
+  <param name="params_lock" type="bool" value="True" />
+</node>
+\endverbatim
+

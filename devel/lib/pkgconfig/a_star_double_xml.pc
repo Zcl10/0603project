@@ -1,0 +1,1 @@
+/home/bit2/0603_project/tang_ws/devel/.private/a_star_double_xml/lib/pkgconfig/a_star_double_xml.pc

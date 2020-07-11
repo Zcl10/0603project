@@ -1,0 +1,8 @@
+prefix=/home/bit2/0603_project/tang_ws/devel/.private/opt_solver
+
+Name: opt_solver
+Description: Description of opt_solver
+Version: 0.0.1
+Cflags: -I/home/bit2/0603_project/tang_ws/src/planning/dependent_package/opt_solver/include -I/usr/local/include -I/usr/include/eigen3 -I/usr/include
+Libs: -L${prefix}/lib -lopt_solver /usr/local/lib/libceres.so.1.12.0
+Requires: roscpp roslib nav_msgs opt_utils

@@ -1,0 +1,5 @@
+Symlinking /home/bit2/0603_project/tang_ws/devel/lib/libtinyspline_ros_cpp.so
+Symlinking /home/bit2/0603_project/tang_ws/devel/lib/libtinyspline_ros_c.so
+Symlinking /home/bit2/0603_project/tang_ws/devel/lib/pkgconfig/tinyspline_ros.pc
+Symlinking /home/bit2/0603_project/tang_ws/devel/share/tinyspline_ros/cmake/tinyspline_rosConfig-version.cmake
+Symlinking /home/bit2/0603_project/tang_ws/devel/share/tinyspline_ros/cmake/tinyspline_rosConfig.cmake

@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+    <node pkg="map_server" type="map_server_node" name="map_server" output="screen">
+        <rosparam command="load" file="$(find map_server)/config/auto_max_speed.yaml"/>
+    </node>
+</launch>

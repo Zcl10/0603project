@@ -1,0 +1,14 @@
+[35m[1mScanning dependencies of target route_publisher[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/route_publisher.dir/src/route_publisher_node.cpp.o[0m
+[35m[1mScanning dependencies of target waypoint_collection[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/waypoint_collection.dir/src/waypoint_collection_node.cpp.o[0m
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/waypoint_manager/src/route_publisher_node.cpp:[m[K In member function ‘[01m[Kvoid RoutePublisher::InterpolationBspline(const Way&)[m[K’:
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/waypoint_manager/src/route_publisher_node.cpp:132:22:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 3 has type ‘[01m[Kstd::size_t {aka long unsigned int}[m[K’ [-Wformat=]
+            sample_num);
+[01;32m[K                      ^[m[K
+[ 50%] [32mBuilding CXX object CMakeFiles/route_publisher.dir/src/ros_interface.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/waypoint_collection.dir/src/ros_interface.cpp.o[0m
+[ 83%] [32m[1mLinking CXX executable /home/bit2/0603_project/tang_ws/devel/.private/waypoint_manager/lib/waypoint_manager/waypoint_collection[0m
+[100%] [32m[1mLinking CXX executable /home/bit2/0603_project/tang_ws/devel/.private/waypoint_manager/lib/waypoint_manager/route_publisher[0m
+[100%] Built target waypoint_collection
+[100%] Built target route_publisher

@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: ecu_communication
+Description: Description of ecu_communication
+Version: 0.0.0
+Cflags: -I/usr/local/include
+Libs: -L/usr/local/lib 
+Requires: roscpp control_msgs sensor_driver_msgs

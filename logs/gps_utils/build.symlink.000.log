@@ -1,0 +1,5 @@
+Symlinking /home/bit2/0603_project/tang_ws/devel/lib/libgps_utils.so
+Symlinking /home/bit2/0603_project/tang_ws/devel/lib/pkgconfig/gps_utils.pc
+Symlinking /home/bit2/0603_project/tang_ws/devel/include/gps_utils/enu.h
+Symlinking /home/bit2/0603_project/tang_ws/devel/share/gps_utils/cmake/gps_utilsConfig-version.cmake
+Symlinking /home/bit2/0603_project/tang_ws/devel/share/gps_utils/cmake/gps_utilsConfig.cmake

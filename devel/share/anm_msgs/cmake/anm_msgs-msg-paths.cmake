@@ -1,0 +1,1 @@
+/home/bit2/0603_project/tang_ws/devel/.private/anm_msgs/share/anm_msgs/cmake/anm_msgs-msg-paths.cmake

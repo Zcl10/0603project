@@ -1,0 +1,1 @@
+/home/bit2/0603_project/tang_ws/devel/.private/movobsplan_msgs/lib/python2.7/dist-packages/movobsplan_msgs/__init__.py

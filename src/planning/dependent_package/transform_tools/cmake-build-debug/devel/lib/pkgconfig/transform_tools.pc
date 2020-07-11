@@ -1,0 +1,8 @@
+prefix=/home/yao/ivrc/cw_project/ivrc_ws/src/planning/dependent_package/transform_tools/cmake-build-debug/devel
+
+Name: transform_tools
+Description: Description of transform_tools
+Version: 0.0.0
+Cflags: -I/home/yao/ivrc/cw_project/ivrc_ws/src/planning/dependent_package/transform_tools/include -I/usr/include/eigen3
+Libs: -L/home/yao/ivrc/cw_project/ivrc_ws/src/planning/dependent_package/transform_tools/cmake-build-debug/devel/lib -ltransform_tools_lib
+Requires: roscpp geometry_msgs tf

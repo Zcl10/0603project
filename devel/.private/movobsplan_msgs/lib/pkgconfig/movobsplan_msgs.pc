@@ -1,0 +1,8 @@
+prefix=/home/bit2/0603_project/tang_ws/devel/.private/movobsplan_msgs
+
+Name: movobsplan_msgs
+Description: Description of movobsplan_msgs
+Version: 0.2.0
+Cflags: -I/home/bit2/0603_project/tang_ws/devel/.private/movobsplan_msgs/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime message_generation std_msgs geometry_msgs

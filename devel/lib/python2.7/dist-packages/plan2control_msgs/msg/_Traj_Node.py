@@ -1,0 +1,1 @@
+/home/bit2/0603_project/tang_ws/devel/.private/plan2control_msgs/lib/python2.7/dist-packages/plan2control_msgs/msg/_Traj_Node.py

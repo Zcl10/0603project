@@ -1,0 +1,1 @@
+/home/bit2/0603_project/tang_ws/devel/.private/lanelet_map_msgs/share/common-lisp/ros/lanelet_map_msgs/msg/lanelet_map_msgs-msg.asd

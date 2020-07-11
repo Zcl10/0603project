@@ -1,0 +1,222 @@
+[01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/src/filter_and_estimate.cpp:[m[K In member function ‘[01m[Kvoid EKFEstimate::inputMeasureState(double*)[m[K’:
+[01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/src/filter_and_estimate.cpp:73:27:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [-Wsign-compare]
+     while (history.size() > k) {
+[01;32m[K                           ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/src/filter_and_estimate.cpp:79:24:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [-Wsign-compare]
+     if (history.size() < k)
+[01;32m[K                        ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/src/filter_and_estimate.cpp:84:23:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [-Wsign-compare]
+     for (int i = 1; i < history.size(); ++i) {
+[01;32m[K                       ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/src/filter_and_estimate.cpp:95:23:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [-Wsign-compare]
+     for (int i = 1; i < history.size(); ++i) {
+[01;32m[K                       ^[m[K
+In file included from [01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/include/lateral_control_core.h:7:0[m[K,
+                 from [01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/src/lateral_control_node.cpp:2[m[K:
+[01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/include/ipopt_solver.h:110:7:[m[K [01;35m[Kwarning: [m[K‘[01m[KSplineIpoptSolver[m[K’ has a field ‘[01m[KSplineIpoptSolver::x_spline[m[K’ whose type uses the anonymous namespace
+ class SplineIpoptSolver : public IpoptSolver {
+[01;32m[K       ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/include/ipopt_solver.h:110:7:[m[K [01;35m[Kwarning: [m[K‘[01m[KSplineIpoptSolver[m[K’ has a field ‘[01m[KSplineIpoptSolver::y_spline[m[K’ whose type uses the anonymous namespace
+[01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/include/ipopt_solver.h:110:7:[m[K [01;35m[Kwarning: [m[K‘[01m[KSplineIpoptSolver[m[K’ has a field ‘[01m[KSplineIpoptSolver::k_spline[m[K’ whose type uses the anonymous namespace
+In file included from [01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/include/lateral_control_core.h:7:0[m[K,
+                 from [01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/src/lateral_control_core.cpp:1[m[K:
+[01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/include/ipopt_solver.h:110:7:[m[K [01;35m[Kwarning: [m[K‘[01m[KSplineIpoptSolver[m[K’ has a field ‘[01m[KSplineIpoptSolver::x_spline[m[K’ whose type uses the anonymous namespace
+ class SplineIpoptSolver : public IpoptSolver {
+[01;32m[K       ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/include/ipopt_solver.h:110:7:[m[K [01;35m[Kwarning: [m[K‘[01m[KSplineIpoptSolver[m[K’ has a field ‘[01m[KSplineIpoptSolver::y_spline[m[K’ whose type uses the anonymous namespace
+[01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/include/ipopt_solver.h:110:7:[m[K [01;35m[Kwarning: [m[K‘[01m[KSplineIpoptSolver[m[K’ has a field ‘[01m[KSplineIpoptSolver::k_spline[m[K’ whose type uses the anonymous namespace
+[01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/src/lateral_control_core.cpp:[m[K In member function ‘[01m[Kbool LateralControlCore::wayPoint2VehicleCoords(std::vector<double>*, std::vector<double>*)[m[K’:
+[01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/src/lateral_control_core.cpp:267:31:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [-Wsign-compare]
+     for (int j = index_min; j < p_trajectory->points.size(); j++) {
+[01;32m[K                               ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/src/lateral_control_core.cpp:[m[K In member function ‘[01m[Kbool LateralControlCore::calculateTrackingError(const std::vector<double>&, const std::vector<double>&, const std::vector<double>&)[m[K’:
+[01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/src/lateral_control_core.cpp:297:23:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [-Wsign-compare]
+     for (int i = 0; i < local_path_x.size(); ++i) {
+[01;32m[K                       ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/src/lateral_control_core.cpp:304:36:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [-Wsign-compare]
+     if (min_index < 0 || min_index >= local_path_x.size() - 1)
+[01;32m[K                                    ^[m[K
+In file included from [01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/src/ipopt_solver_refer_point.cpp:5:0[m[K:
+[01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/include/ipopt_solver.h:110:7:[m[K [01;35m[Kwarning: [m[K‘[01m[KSplineIpoptSolver[m[K’ has a field ‘[01m[KSplineIpoptSolver::x_spline[m[K’ whose type uses the anonymous namespace
+ class SplineIpoptSolver : public IpoptSolver {
+[01;32m[K       ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/include/ipopt_solver.h:110:7:[m[K [01;35m[Kwarning: [m[K‘[01m[KSplineIpoptSolver[m[K’ has a field ‘[01m[KSplineIpoptSolver::y_spline[m[K’ whose type uses the anonymous namespace
+[01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/include/ipopt_solver.h:110:7:[m[K [01;35m[Kwarning: [m[K‘[01m[KSplineIpoptSolver[m[K’ has a field ‘[01m[KSplineIpoptSolver::k_spline[m[K’ whose type uses the anonymous namespace
+[01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/src/ipopt_solver_refer_point.cpp:[m[K In member function ‘[01m[Kvoid ReferPointIpoptSolver::renewPeriodStep(const std::vector<double>&)[m[K’:
+[01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/src/ipopt_solver_refer_point.cpp:95:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Knew_period[m[K’ [-Wunused-variable]
+     double new_period = round(5.0 + 10 * exp(-w * PGC)) / 100;
+[01;32m[K            ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/src/ipopt_solver_refer_point.cpp:[m[K In member function ‘[01m[Kvoid ReferPointIpoptSolver::delayProcessing()[m[K’:
+[01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/src/ipopt_solver_refer_point.cpp:104:31:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [-Wsign-compare]
+     while (history_cmd.size() > delay_N)
+[01;32m[K                               ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/src/ipopt_solver_refer_point.cpp:111:19:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [-Wsign-compare]
+         if (i + 1 < history_cmd.size()) {
+[01;32m[K                   ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/src/ipopt_solver_refer_point.cpp:[m[K In member function ‘[01m[Kvoid ReferPointIpoptSolver::selectReferPoints(const std::vector<double>&, const std::vector<double>&, const std::vector<double>&, const std::vector<double>&, const std::vector<double>&)[m[K’:
+[01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/src/ipopt_solver_refer_point.cpp:129:24:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [-Wsign-compare]
+     while (first_index < local_path_s.size()) {
+[01;32m[K                        ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/src/ipopt_solver_refer_point.cpp:141:23:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [-Wsign-compare]
+     for (int i = 1; i < N; ++i) {
+[01;32m[K                       ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/src/ipopt_solver_refer_point.cpp:144:22:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [-Wsign-compare]
+         while (index < local_path_s.size() && local_path_s[index] - local_path_s[first_index] < move_distance)
+[01;32m[K                      ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/src/ipopt_solver_refer_point.cpp:147:19:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [-Wsign-compare]
+         if (index >= local_path_s.size()) {
+[01;32m[K                   ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/src/ipopt_solver_refer_point.cpp:[m[K At global scope:
+[01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/src/ipopt_solver_refer_point.cpp:164:62:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcurvature[m[K’ [-Wunused-parameter]
+                                   const std::vector<double> &curvature,
+[01;32m[K                                                              ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/src/ipopt_solver_refer_point.cpp:[m[K In member function ‘[01m[Kbool ReferPointIpoptSolver::kineticSolve()[m[K’:
+[01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/src/ipopt_solver_refer_point.cpp:226:39:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [-Wsign-compare]
+     for (int i = steer_range_begin; i < n_vars; i++) {
+[01;32m[K                                       ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/src/ipopt_solver_refer_point.cpp:279:23:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [-Wsign-compare]
+     for (int i = 0; i < N && ok; i++) {
+[01;32m[K                       ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/src/ipopt_solver_refer_point.cpp:287:23:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [-Wsign-compare]
+     for (int i = 0; i < N - 1 && ok; ++i) {
+[01;32m[K                       ^[m[K
+In file included from [01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/src/ipopt_solver_refer_point_dynamic.cpp:5:0[m[K:
+[01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/include/ipopt_solver.h:110:7:[m[K [01;35m[Kwarning: [m[K‘[01m[KSplineIpoptSolver[m[K’ has a field ‘[01m[KSplineIpoptSolver::x_spline[m[K’ whose type uses the anonymous namespace
+ class SplineIpoptSolver : public IpoptSolver {
+[01;32m[K       ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/include/ipopt_solver.h:110:7:[m[K [01;35m[Kwarning: [m[K‘[01m[KSplineIpoptSolver[m[K’ has a field ‘[01m[KSplineIpoptSolver::y_spline[m[K’ whose type uses the anonymous namespace
+[01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/include/ipopt_solver.h:110:7:[m[K [01;35m[Kwarning: [m[K‘[01m[KSplineIpoptSolver[m[K’ has a field ‘[01m[KSplineIpoptSolver::k_spline[m[K’ whose type uses the anonymous namespace
+[01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/src/ipopt_solver_refer_point_dynamic.cpp:[m[K In member function ‘[01m[Kbool ReferPointIpoptSolver::dynamicSolve()[m[K’:
+[01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/src/ipopt_solver_refer_point_dynamic.cpp:149:39:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [-Wsign-compare]
+     for (int i = steer_range_begin; i < n_vars; i++) {
+[01;32m[K                                       ^[m[K
+In file included from [01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/src/ipopt_solver_polynomial.cpp:5:0[m[K:
+[01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/include/ipopt_solver.h:110:7:[m[K [01;35m[Kwarning: [m[K‘[01m[KSplineIpoptSolver[m[K’ has a field ‘[01m[KSplineIpoptSolver::x_spline[m[K’ whose type uses the anonymous namespace
+ class SplineIpoptSolver : public IpoptSolver {
+[01;32m[K       ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/include/ipopt_solver.h:110:7:[m[K [01;35m[Kwarning: [m[K‘[01m[KSplineIpoptSolver[m[K’ has a field ‘[01m[KSplineIpoptSolver::y_spline[m[K’ whose type uses the anonymous namespace
+[01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/include/ipopt_solver.h:110:7:[m[K [01;35m[Kwarning: [m[K‘[01m[KSplineIpoptSolver[m[K’ has a field ‘[01m[KSplineIpoptSolver::k_spline[m[K’ whose type uses the anonymous namespace
+In file included from [01m[K/opt/ros/kinetic/include/ros/ros.h:40:0[m[K,
+                 from [01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/include/path_tracking.h:13[m[K,
+                 from [01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/include/ipopt_solver.h:4[m[K,
+                 from [01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/src/ipopt_solver_polynomial.cpp:5[m[K:
+[01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/src/ipopt_solver_polynomial.cpp:[m[K In member function ‘[01m[Kvirtual bool PolynomialIpoptSolver::solve(const std::vector<double>&, const std::vector<double>&, const std::vector<double>&, const std::vector<double>&, const std::vector<double>&, const std::vector<double>&)[m[K’:
+[01m[K/opt/ros/kinetic/include/ros/console.h:346:176:[m[K [01;35m[Kwarning: [m[Kformat not a string literal and no format arguments [-Wformat-security]
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__)
+[01;32m[K                                                                                                                                                                                ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:349:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+     ROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER(0, __VA_ARGS__)
+[01;32m[K     ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:379:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+       ROSCONSOLE_PRINT_AT_LOCATION(__VA_ARGS__); \
+[01;32m[K       ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:561:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+ #define ROS_LOG(level, name, ...) ROS_LOG_COND(true, level, name, __VA_ARGS__)
+[01;32m[K                                   ^[m[K
+[01m[K/opt/ros/kinetic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_INFO(...) ROS_LOG(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+[01;32m[K                       ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/src/ipopt_solver_polynomial.cpp:100:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+     ROS_INFO(this->name.c_str());
+[01;32m[K     ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/src/ipopt_solver_polynomial.cpp:108:23:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [-Wsign-compare]
+     for (int i = 0; i < local_path_s.size(); ++i) {
+[01;32m[K                       ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/src/ipopt_solver_polynomial.cpp:172:37:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [-Wsign-compare]
+     for (int i = acc_range_begin; i < n_vars; i++) {
+[01;32m[K                                     ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/src/ipopt_solver_polynomial.cpp:116:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kangle[m[K’ [-Wunused-variable]
+     double angle = p_ecu_report->motion.velocity / p_control_parameter->steer_ratio * M_PI / 180;
+[01;32m[K            ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/src/ipopt_solver_polynomial.cpp:[m[K At global scope:
+[01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/src/ipopt_solver_polynomial.cpp:96:62:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kheading[m[K’ [-Wunused-parameter]
+                                   const std::vector<double> &heading,
+[01;32m[K                                                              ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/src/ipopt_solver_polynomial.cpp:97:62:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcurvature[m[K’ [-Wunused-parameter]
+                                   const std::vector<double> &curvature,
+[01;32m[K                                                              ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/src/ipopt_solver_polynomial.cpp:99:62:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karc_length[m[K’ [-Wunused-parameter]
+                                   const std::vector<double> &arc_length) {
+[01;32m[K                                                              ^[m[K
+In file included from [01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/src/ipopt_solver_spline.cpp:5:0[m[K:
+[01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/include/ipopt_solver.h:110:7:[m[K [01;35m[Kwarning: [m[K‘[01m[KSplineIpoptSolver[m[K’ has a field ‘[01m[KSplineIpoptSolver::x_spline[m[K’ whose type uses the anonymous namespace
+ class SplineIpoptSolver : public IpoptSolver {
+[01;32m[K       ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/include/ipopt_solver.h:110:7:[m[K [01;35m[Kwarning: [m[K‘[01m[KSplineIpoptSolver[m[K’ has a field ‘[01m[KSplineIpoptSolver::y_spline[m[K’ whose type uses the anonymous namespace
+[01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/include/ipopt_solver.h:110:7:[m[K [01;35m[Kwarning: [m[K‘[01m[KSplineIpoptSolver[m[K’ has a field ‘[01m[KSplineIpoptSolver::k_spline[m[K’ whose type uses the anonymous namespace
+In file included from [01m[K/opt/ros/kinetic/include/ros/ros.h:40:0[m[K,
+                 from [01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/include/path_tracking.h:13[m[K,
+                 from [01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/include/ipopt_solver.h:4[m[K,
+                 from [01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/src/ipopt_solver_spline.cpp:5[m[K:
+[01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/src/ipopt_solver_spline.cpp:[m[K In member function ‘[01m[Kvirtual bool SplineIpoptSolver::solve(const std::vector<double>&, const std::vector<double>&, const std::vector<double>&, const std::vector<double>&, const std::vector<double>&, const std::vector<double>&)[m[K’:
+[01m[K/opt/ros/kinetic/include/ros/console.h:346:176:[m[K [01;35m[Kwarning: [m[Kformat not a string literal and no format arguments [-Wformat-security]
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__)
+[01;32m[K                                                                                                                                                                                ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:349:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+     ROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER(0, __VA_ARGS__)
+[01;32m[K     ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:379:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+       ROSCONSOLE_PRINT_AT_LOCATION(__VA_ARGS__); \
+[01;32m[K       ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:561:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+ #define ROS_LOG(level, name, ...) ROS_LOG_COND(true, level, name, __VA_ARGS__)
+[01;32m[K                                   ^[m[K
+[01m[K/opt/ros/kinetic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_INFO(...) ROS_LOG(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+[01;32m[K                       ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/src/ipopt_solver_spline.cpp:89:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+     ROS_INFO(this->name.c_str());
+[01;32m[K     ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/src/ipopt_solver_spline.cpp:154:39:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [-Wsign-compare]
+     for (int i = steer_range_begin; i < n_vars; i++) {
+[01;32m[K                                       ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/src/ipopt_solver_spline.cpp:[m[K At global scope:
+[01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/src/ipopt_solver_spline.cpp:85:58:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kheading[m[K’ [-Wunused-parameter]
+                               const std::vector<double> &heading,
+[01;32m[K                                                          ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/src/ipopt_solver_spline.cpp:88:58:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karc_length[m[K’ [-Wunused-parameter]
+                               const std::vector<double> &arc_length) {
+[01;32m[K                                                          ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/src/ribbon.cpp:[m[K In member function ‘[01m[Kdouble Ribbon::calculatePointCurvature(int, std::__cxx11::string)[m[K’:
+[01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/src/ribbon.cpp:128:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [-Wreturn-type]
+ }
+[01;32m[K ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/src/pure_pursuit.cpp:[m[K In member function ‘[01m[Kint PurePursuit::findWayPoint()[m[K’:
+[01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/src/pure_pursuit.cpp:43:27:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [-Wsign-compare]
+     for (int i = 0; i + 1 < local_path_x.size(); ++i) {
+[01;32m[K                           ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/src/pure_pursuit.cpp:[m[K In member function ‘[01m[Kstd::pair<double, double> PurePursuit::findGoalPoint(int)[m[K’:
+[01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/src/pure_pursuit.cpp:52:15:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [-Wsign-compare]
+     if (index == local_path_x.size() - 1)
+[01;32m[K               ^[m[K
+In file included from [01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/include/lateral_control_core.h:7:0[m[K,
+                 from [01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/src/communication_sub_sim.cpp:5[m[K:
+[01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/include/ipopt_solver.h:110:7:[m[K [01;35m[Kwarning: [m[K‘[01m[KSplineIpoptSolver[m[K’ has a field ‘[01m[KSplineIpoptSolver::x_spline[m[K’ whose type uses the anonymous namespace
+ class SplineIpoptSolver : public IpoptSolver {
+[01;32m[K       ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/include/ipopt_solver.h:110:7:[m[K [01;35m[Kwarning: [m[K‘[01m[KSplineIpoptSolver[m[K’ has a field ‘[01m[KSplineIpoptSolver::y_spline[m[K’ whose type uses the anonymous namespace
+[01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/include/ipopt_solver.h:110:7:[m[K [01;35m[Kwarning: [m[K‘[01m[KSplineIpoptSolver[m[K’ has a field ‘[01m[KSplineIpoptSolver::k_spline[m[K’ whose type uses the anonymous namespace
+In file included from [01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/include/lateral_control_core.h:7:0[m[K,
+                 from [01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/src/communication_sub_real.cpp:5[m[K:
+[01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/include/ipopt_solver.h:110:7:[m[K [01;35m[Kwarning: [m[K‘[01m[KSplineIpoptSolver[m[K’ has a field ‘[01m[KSplineIpoptSolver::x_spline[m[K’ whose type uses the anonymous namespace
+ class SplineIpoptSolver : public IpoptSolver {
+[01;32m[K       ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/include/ipopt_solver.h:110:7:[m[K [01;35m[Kwarning: [m[K‘[01m[KSplineIpoptSolver[m[K’ has a field ‘[01m[KSplineIpoptSolver::y_spline[m[K’ whose type uses the anonymous namespace
+[01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/include/ipopt_solver.h:110:7:[m[K [01;35m[Kwarning: [m[K‘[01m[KSplineIpoptSolver[m[K’ has a field ‘[01m[KSplineIpoptSolver::k_spline[m[K’ whose type uses the anonymous namespace
+In file included from [01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/include/lateral_control_core.h:7:0[m[K,
+                 from [01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/src/communication_pub.cpp:5[m[K:
+[01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/include/ipopt_solver.h:110:7:[m[K [01;35m[Kwarning: [m[K‘[01m[KSplineIpoptSolver[m[K’ has a field ‘[01m[KSplineIpoptSolver::x_spline[m[K’ whose type uses the anonymous namespace
+ class SplineIpoptSolver : public IpoptSolver {
+[01;32m[K       ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/include/ipopt_solver.h:110:7:[m[K [01;35m[Kwarning: [m[K‘[01m[KSplineIpoptSolver[m[K’ has a field ‘[01m[KSplineIpoptSolver::y_spline[m[K’ whose type uses the anonymous namespace
+[01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/include/ipopt_solver.h:110:7:[m[K [01;35m[Kwarning: [m[K‘[01m[KSplineIpoptSolver[m[K’ has a field ‘[01m[KSplineIpoptSolver::k_spline[m[K’ whose type uses the anonymous namespace
+[01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/src/communication_pub.cpp:[m[K In member function ‘[01m[Kvoid LateralControlCore::sendMessageToRviz(const std::vector<double>&, const std::vector<double>&)[m[K’:
+[01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/src/communication_pub.cpp:104:23:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [-Wsign-compare]
+     for (int i = 0; i < local_path_x.size(); ++i) {
+[01;32m[K                       ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/src/communication_pub.cpp:115:53:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [-Wsign-compare]
+     for (int i = 0; ptr_refer_path_ != nullptr && i < ptr_refer_path_->size(); ++i) {
+[01;32m[K                                                     ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/src/communication_pub.cpp:126:55:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [-Wsign-compare]
+     for (int i = 0; ptr_predict_path_ != nullptr && i < ptr_predict_path_->size(); ++i) {
+[01;32m[K                                                       ^[m[K

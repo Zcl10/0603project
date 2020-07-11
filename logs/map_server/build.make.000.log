@@ -1,0 +1,52 @@
+[35m[1mScanning dependencies of target map_server_node[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/map_server_node.dir/src/ros_interface.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/map_server_node.dir/src/map_server_node.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/map_server_node.dir/src/display_thread.cpp.o[0m
+In file included from [01m[K/home/bit2/0603_project/tang_ws/src/planning/map_server/src/ros_interface.cpp:5:0[m[K:
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/map_server/include/map_server/ros_interface.hpp:[m[K In constructor ‘[01m[KRosSubscriber::RosSubscriber(const ConfigVariable&, ros::NodeHandle*)[m[K’:
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/map_server/include/map_server/ros_interface.hpp:220:9:[m[K [01;35m[Kwarning: [m[K‘[01m[KRosSubscriber::on_lawn_area_count_[m[K’ will be initialized after [-Wreorder]
+     int on_lawn_area_count_;
+[01;32m[K         ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/map_server/include/map_server/ros_interface.hpp:218:9:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kint RosSubscriber::empty_traj_count_[m[K’ [-Wreorder]
+     int empty_traj_count_;
+[01;32m[K         ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/map_server/src/ros_interface.cpp:7:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [-Wreorder]
+ RosSubscriber::RosSubscriber(const ConfigVariable &config,
+[01;32m[K ^[m[K
+In file included from [01m[K/home/bit2/0603_project/tang_ws/src/planning/map_server/src/ros_interface.cpp:5:0[m[K:
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/map_server/include/map_server/ros_interface.hpp:218:9:[m[K [01;35m[Kwarning: [m[K‘[01m[KRosSubscriber::empty_traj_count_[m[K’ will be initialized after [-Wreorder]
+     int empty_traj_count_;
+[01;32m[K         ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/map_server/include/map_server/ros_interface.hpp:216:14:[m[K [01;35m[Kwarning: [m[K  ‘[01m[KTaskType RosSubscriber::current_task_[m[K’ [-Wreorder]
+     TaskType current_task_;
+[01;32m[K              ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/map_server/src/ros_interface.cpp:7:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [-Wreorder]
+ RosSubscriber::RosSubscriber(const ConfigVariable &config,
+[01;32m[K ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/map_server/src/ros_interface.cpp:[m[K In member function ‘[01m[Kvoid RosSubscriber::sigleFrameLidarMapCb(const IvGridMap&)[m[K’:
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/map_server/src/ros_interface.cpp:56:70:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around ‘[01m[K&&[m[K’ within ‘[01m[K||[m[K’ [-Wparentheses]
+     if (this->current_task_ == BACKUP || !(flag_.is_multi_map_valid) && !flag_.is_finding_moving_target) {
+[01;32m[K                                                                      ^[m[K
+In file included from [01m[K/home/bit2/0603_project/tang_ws/src/planning/map_server/src/map_server_node.cpp:1:0[m[K:
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/map_server/include/map_server/map_server_node.hpp:[m[K In constructor ‘[01m[KMapServer::MapServer(const ConfigVariable&, ros::NodeHandle*)[m[K’:
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/map_server/include/map_server/map_server_node.hpp:140:22:[m[K [01;35m[Kwarning: [m[K‘[01m[KMapServer::nh_[m[K’ will be initialized after [-Wreorder]
+     ros::NodeHandle *nh_;
+[01;32m[K                      ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/map_server/include/map_server/map_server_node.hpp:134:27:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kconst ConfigVariable& MapServer::cfg_[m[K’ [-Wreorder]
+     const ConfigVariable &cfg_;
+[01;32m[K                           ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/map_server/src/map_server_node.cpp:7:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [-Wreorder]
+ MapServer::MapServer(const ConfigVariable &config, ros::NodeHandle *nh) :
+[01;32m[K ^[m[K
+In file included from [01m[K/home/bit2/0603_project/tang_ws/src/planning/map_server/src/map_server_node.cpp:1:0[m[K:
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/map_server/include/map_server/map_server_node.hpp:159:15:[m[K [01;35m[Kwarning: [m[K‘[01m[KMapServer::light_type_[m[K’ will be initialized after [-Wreorder]
+     LightType light_type_;
+[01;32m[K               ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/map_server/include/map_server/map_server_node.hpp:155:23:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kgrid_map::GridMap MapServer::gridmap_[m[K’ [-Wreorder]
+     grid_map::GridMap gridmap_;
+[01;32m[K                       ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/map_server/src/map_server_node.cpp:7:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [-Wreorder]
+ MapServer::MapServer(const ConfigVariable &config, ros::NodeHandle *nh) :
+[01;32m[K ^[m[K
+[100%] [32m[1mLinking CXX executable /home/bit2/0603_project/tang_ws/devel/.private/map_server/lib/map_server/map_server_node[0m
+[100%] Built target map_server_node

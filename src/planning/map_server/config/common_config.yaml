@@ -1,0 +1,69 @@
+####通用参数####
+# 是否在仿真模式
+is_simulation:                false
+# 是否使用局部地图进行规划
+use_local_frame:              false
+# 栅格地图的坐标系id：
+frame_id:                   /odom #/semi_base_link
+# 车辆综合定位话题：
+vehicle_fuse_pose_topic:    /gpsdata #/sensor_fusion_output #
+# 路网话题（/topology_global_path来自于a_star_double_xml包）
+road_net_topic:             /global_way #/topology_global_path #
+
+####地图相关####
+# 正常规划时使用的地图话题:
+normal_map_topic:         /final_traversable_area_optimized_topic #/traversible_area_topic #/final_traversable_area_topic #
+# 倒车时使用的地图话题：
+back_up_map_topic:        /single_traversable_area_optimized_topic # ObstacalOgm #王旭用的
+# 烟雾区地图话题：
+smoke_area_map_topic:     /Grid_Map_topic
+# 里程计位姿话题，用于多帧地图转换
+odom_pose_topic:          /lidar_odometry_to_earth #/final_vehicle_global_pose_topic #/vehicle_global_pose_topic #
+# map_server发布地图的话题
+publish_map_topic:        /local_grid_map
+# 车辆中心沿轴距偏移的距离
+base_point_shift:         0.0
+# 是否使用路网限制可通行区域
+use_roadnet_limit_fessible_area: false #true #false #
+
+####规划相关####
+#是否使用纯跟路网模式（需要use_roadnet=true 且 use_state_sampling=false）
+pure_roadnet_mode:        true
+# 是否优先使用路网进行规划
+use_roadnet:              true
+# 是否对规划结果进行采样
+use_state_sampling:       false
+# 是否直接使用任务文件作为路网(此时需要跟踪的路网来自于/global_way，但任务区的匹配结果仍然来自于/topology_global_path)
+use_origin_task_point:   false
+generate_path_length:    40
+
+####全局路网####
+#自动开启开关
+automatic_start:          true
+#是否直接发送任务点
+get_node_from_txt:       false
+#是否用先验地图进行重规划
+use_prior_map_replan:    true
+#是否开启动态障碍物检测
+open_dynamic_obs_det:    true
+#是否开启烟雾检测
+open_foggy_det:           true
+# 是否对路网插值
+need_interpolation:       true
+# 是否使用B样条插值（默认为线性插值）
+use_bspline:              true
+#是否开启遥控模式
+remote_control_mode:     false
+
+####路网采集及发布相关####
+# 发布的路网文件名
+file_name:              tang_straight.txt #L_4_path   # tang_5_S.txt # 
+# 保存路点的定时器时间(s)
+save_period:             0.05
+# 两点间的间隔
+interval:                0.5
+# 路网插值类型
+roadnet_interpolate_type: spline #line #none
+# 多圈循环模式
+multi_circle_mode:         true
+use_gps_point:              true

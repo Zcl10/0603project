@@ -1,0 +1,1 @@
+/home/bit2/0603_project/tang_ws/devel/.private/sensor_driver_msgs/share/gennodejs/ros/sensor_driver_msgs/msg/History_traj.js

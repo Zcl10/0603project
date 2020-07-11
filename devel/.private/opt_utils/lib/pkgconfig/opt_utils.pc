@@ -1,0 +1,8 @@
+prefix=/home/bit2/0603_project/tang_ws/devel/.private/opt_utils
+
+Name: opt_utils
+Description: Description of opt_utils
+Version: 0.0.1
+Cflags: -I/home/bit2/0603_project/tang_ws/src/planning/dependent_package/opt_utils/include
+Libs: -L${prefix}/lib -lopt_utils
+Requires: geometry_msgs lanelet_map_msgs

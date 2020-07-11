@@ -1,0 +1,1 @@
+/home/bit2/0603_project/tang_ws/devel/.private/extractroad_msg/share/extractroad_msg/cmake/extractroad_msgConfig.cmake

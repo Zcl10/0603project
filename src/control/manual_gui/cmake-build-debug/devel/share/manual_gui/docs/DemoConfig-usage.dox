@@ -1,0 +1,11 @@
+\subsubsection usage Usage
+\verbatim
+<node name="manual_gui_node" pkg="manual_gui" type="manual_gui_node">
+  <param name="rate" type="int" value="20" />
+  <param name="auto_mode" type="bool" value="False" />
+  <param name="longitude_enable" type="bool" value="False" />
+  <param name="torque_enable" type="bool" value="False" />
+  <param name="rainy_mode" type="bool" value="False" />
+</node>
+\endverbatim
+

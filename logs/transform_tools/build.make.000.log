@@ -1,0 +1,17 @@
+[35m[1mScanning dependencies of target transform_tools_lib[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/transform_tools_lib.dir/src/transform.cc.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/transform_tools_lib.dir/src/rigid_transform.cc.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/transform_tools_lib.dir/src/transform_interface.cpp.o[0m
+In file included from [01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/transform_tools/src/transform_interface.cpp:4:0[m[K:
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/transform_tools/include/transform_tools/transform_interface.hpp:[m[K In constructor ‘[01m[Kcartographer::transform::TransformTools::TransformTools()[m[K’:
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/transform_tools/include/transform_tools/transform_interface.hpp:26:16:[m[K [01;35m[Kwarning: [m[K‘[01m[Kcartographer::transform::TransformTools::hemi_[m[K’ will be initialized after [-Wreorder]
+     Hemisphere hemi_;
+[01;32m[K                ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/transform_tools/include/transform_tools/transform_interface.hpp:25:14:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kcartographer::transform::GridZone cartographer::transform::TransformTools::zone_[m[K’ [-Wreorder]
+     GridZone zone_;
+[01;32m[K              ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/transform_tools/src/transform_interface.cpp:7:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [-Wreorder]
+ TransformTools::TransformTools() :
+[01;32m[K ^[m[K
+[100%] [32m[1mLinking CXX shared library /home/bit2/0603_project/tang_ws/devel/.private/transform_tools/lib/libtransform_tools_lib.so[0m
+[100%] Built target transform_tools_lib

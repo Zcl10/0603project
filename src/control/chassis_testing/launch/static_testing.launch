@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+  <arg name="config" default="$(find chassis_testing)/config/static_testing.yaml" />
+  <node pkg="chassis_testing" type="static_testing_node" name="static_testing_node" output="screen">
+    <rosparam command="load" file="$(arg config)"/>
+  </node>
+  <node pkg="rqt_reconfigure" type="rqt_reconfigure" name="rqt_reconfigure" output="screen"/>
+</launch>

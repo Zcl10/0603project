@@ -1,0 +1,8 @@
+Symlinking /home/bit2/0603_project/tang_ws/devel/lib/libinternal_grid_map.so
+Symlinking /home/bit2/0603_project/tang_ws/devel/lib/internal_grid_map/grid_map_demo
+Symlinking /home/bit2/0603_project/tang_ws/devel/lib/internal_grid_map/submap_node
+Symlinking /home/bit2/0603_project/tang_ws/devel/lib/internal_grid_map/data/obstacles.png
+Symlinking /home/bit2/0603_project/tang_ws/devel/lib/pkgconfig/internal_grid_map.pc
+Symlinking /home/bit2/0603_project/tang_ws/devel/share/internal_grid_map/data/obstacles.png
+Symlinking /home/bit2/0603_project/tang_ws/devel/share/internal_grid_map/cmake/internal_grid_mapConfig-version.cmake
+Symlinking /home/bit2/0603_project/tang_ws/devel/share/internal_grid_map/cmake/internal_grid_mapConfig.cmake

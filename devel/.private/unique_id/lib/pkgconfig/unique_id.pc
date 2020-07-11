@@ -1,0 +1,8 @@
+prefix=/home/bit2/0603_project/tang_ws/devel/.private/unique_id
+
+Name: unique_id
+Description: Description of unique_id
+Version: 1.0.6
+Cflags: -I/home/bit2/0603_project/tang_ws/src/planning/dependent_package/unique_id/include -I/usr/include
+Libs: -L${prefix}/lib 
+Requires: uuid_msgs

@@ -1,0 +1,6 @@
+In file included from [01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/src/lateral_control_node.cpp:2:0[m[K:
+[01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/include/lateral_control_core.h:5:36:[m[K [01;31m[Kfatal error: [m[Kpath_tracking/observer.h: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [CMakeFiles/path_tracking_node.dir/src/lateral_control_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/path_tracking_node.dir/all] Error 2
+make: *** [all] Error 2

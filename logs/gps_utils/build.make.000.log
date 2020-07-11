@@ -1,0 +1,6 @@
+[35m[1mScanning dependencies of target gps_utils[0m
+[ 25%] [32mBuilding C object CMakeFiles/gps_utils.dir/src/coord_system.c.o[0m
+[ 50%] [32mBuilding C object CMakeFiles/gps_utils.dir/src/linear_algebra.c.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/gps_utils.dir/src/enu.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library /home/bit2/0603_project/tang_ws/devel/.private/gps_utils/lib/libgps_utils.so[0m
+[100%] Built target gps_utils

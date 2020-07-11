@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+    <node pkg="guidance_point" type="guidance_point_node" name="guidance_point" output="screen">
+        <rosparam command="load" file="$(find guidance_point)/config/config.yaml"/>
+        <rosparam command="load" file="$(find map_server)/config/common_config.yaml"/>
+    </node>
+</launch>

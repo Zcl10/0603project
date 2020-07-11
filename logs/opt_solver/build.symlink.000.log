@@ -1,0 +1,5 @@
+Symlinking /home/bit2/0603_project/tang_ws/devel/lib/libopt_solver.so
+Symlinking /home/bit2/0603_project/tang_ws/devel/lib/opt_solver/single_path_node
+Symlinking /home/bit2/0603_project/tang_ws/devel/lib/pkgconfig/opt_solver.pc
+Symlinking /home/bit2/0603_project/tang_ws/devel/share/opt_solver/cmake/opt_solverConfig.cmake
+Symlinking /home/bit2/0603_project/tang_ws/devel/share/opt_solver/cmake/opt_solverConfig-version.cmake

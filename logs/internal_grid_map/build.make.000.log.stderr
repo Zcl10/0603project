@@ -1,0 +1,8 @@
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/internal_grid_map/src/internal_grid_map.cpp:[m[K In member function ‘[01m[Kbool hmpl::InternalGridMap::init(std::__cxx11::string, const Length&, double, const Position&)[m[K’:
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/internal_grid_map/src/internal_grid_map.cpp:30:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [-Wreturn-type]
+ }
+[01;32m[K ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/internal_grid_map/src/internal_grid_map.cpp:[m[K In member function ‘[01m[Kbool hmpl::InternalGridMap::updateDistanceLayerCV()[m[K’:
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/internal_grid_map/src/internal_grid_map.cpp:64:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [-Wreturn-type]
+ }
+[01;32m[K ^[m[K

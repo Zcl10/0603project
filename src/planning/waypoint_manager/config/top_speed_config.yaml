@@ -1,0 +1,10 @@
+####路网采集及发布相关####
+# 发布的路网文件名
+file_name:       top_speed.txt
+# 保存路点的定时器时间(s)
+save_period:             0.05
+# 两点间的间隔
+interval:                1.0
+# 路网插值类型
+roadnet_interpolate_type: spline #line #none
+use_gps_point:              true

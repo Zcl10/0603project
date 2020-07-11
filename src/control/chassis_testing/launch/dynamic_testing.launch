@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+  <arg name="config" default="$(find chassis_testing)/config/dynamic_testing.yaml" />
+  <node pkg="chassis_testing" type="dynamic_testing_node" name="dynamic_testing_node" output="screen">
+    <rosparam command="load" file="$(arg config)"/>
+  </node>
+  </launch>

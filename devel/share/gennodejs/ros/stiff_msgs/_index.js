@@ -1,0 +1,1 @@
+/home/bit2/0603_project/tang_ws/devel/.private/stiff_msgs/share/gennodejs/ros/stiff_msgs/_index.js

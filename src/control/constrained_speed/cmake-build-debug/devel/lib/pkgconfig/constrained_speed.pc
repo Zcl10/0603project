@@ -1,0 +1,8 @@
+prefix=/home/yao/0603_project/tang_ws/src/control/constrained_speed/cmake-build-debug/devel
+
+Name: constrained_speed
+Description: Description of constrained_speed
+Version: 0.0.0
+Cflags: -I/home/yao/0603_project/tang_ws/src/control/constrained_speed/cmake-build-debug/devel/include -I/home/yao/0603_project/tang_ws/src/control/constrained_speed/include
+Libs: -L/home/yao/0603_project/tang_ws/src/control/constrained_speed/cmake-build-debug/devel/lib 
+Requires: roscpp plan2control_msgs speed_debug_msgs lanelet_map_msgs control_msgs movobsplan_msgs dbw_mkz_msgs anm_msgs

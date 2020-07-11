@@ -1,0 +1,41 @@
+\subsubsection usage Usage
+\verbatim
+<node name="visualization_node" pkg="space_explore" type="visualization_node">
+  <param name="shared_colors" type="int" value="10" />
+  <param name="start_marker_size" type="double" value="1.0" />
+  <param name="start_marker_frame" type="str" value="/map" />
+  <param name="start_marker_alpha" type="double" value="1.0" />
+  <param name="start_marker_color" type="int" value="7" />
+  <param name="goal_marker_size" type="double" value="1.0" />
+  <param name="goal_marker_frame" type="str" value="/map" />
+  <param name="goal_marker_alpha" type="double" value="1.0" />
+  <param name="goal_marker_color" type="int" value="9" />
+  <param name="circle_marker_size" type="double" value="0.1" />
+  <param name="circle_marker_frame" type="str" value="/map" />
+  <param name="circle_marker_alpha" type="double" value="1.0" />
+  <param name="circle_marker_color" type="int" value="8" />
+  <param name="enable_internal_path_display" type="bool" value="False" />
+  <param name="inter_path_width" type="double" value="0.08" />
+  <param name="inter_path_marker_frame" type="str" value="/map" />
+  <param name="inter_path_marker_alpha" type="double" value="1.0" />
+  <param name="inter_path_marker_color" type="int" value="0" />
+  <param name="path_node_size" type="double" value="0.2" />
+  <param name="path_node_frame" type="str" value="/map" />
+  <param name="path_node_alpha" type="double" value="1.0" />
+  <param name="path_node_color" type="int" value="10" />
+  <param name="circle_path_width" type="double" value="0.1" />
+  <param name="circle_path_frame" type="str" value="/map" />
+  <param name="circle_path_alpha" type="double" value="1.0" />
+  <param name="circle_path_color" type="int" value="10" />
+  <param name="circle_path_node_size" type="double" value="0.3" />
+  <param name="circle_path_node_frame" type="str" value="/map" />
+  <param name="circle_path_node_alpha" type="double" value="1.0" />
+  <param name="circle_path_node_color" type="int" value="0" />
+  <param name="enable_final_path_display" type="bool" value="False" />
+  <param name="final_path_width" type="double" value="0.15" />
+  <param name="final_path_frame" type="str" value="/map" />
+  <param name="final_path_alpha" type="double" value="1.0" />
+  <param name="final_path_color" type="int" value="9" />
+</node>
+\endverbatim
+

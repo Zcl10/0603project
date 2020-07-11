@@ -1,0 +1,2 @@
+float32 throttle_opening
+float32 throttle_pedal

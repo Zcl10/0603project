@@ -1,0 +1,1 @@
+set(ORDERED_PATHS "/home/yao/ivrc/cw_project/ivrc_ws/devel/lib;/opt/ros/kinetic/lib")

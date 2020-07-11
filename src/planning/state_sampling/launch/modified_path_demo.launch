@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+    <node pkg="state_sampling" type="global_path_node" name="global_path" args="" output="screen">
+        <rosparam command="load" file="$(find map_server)/config/common_config.yaml"/>
+    </node>
+    <node name="rviz" pkg="rviz" type="rviz" args="-d $(find space_explore)/cfg/modified_path_demo_viz.rviz" output="screen" />
+</launch>

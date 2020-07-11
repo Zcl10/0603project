@@ -1,0 +1,8 @@
+prefix=/home/bit2/0603_project/tang_ws/devel/.private/visual_tools
+
+Name: visual_tools
+Description: Description of visual_tools
+Version: 0.0.1
+Cflags: -I/home/bit2/0603_project/tang_ws/src/planning/dependent_package/visual_tools/include
+Libs: -L${prefix}/lib -lvisual_tools
+Requires: roscpp roslib tf2_eigen tf2

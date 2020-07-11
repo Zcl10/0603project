@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+    <node pkg="ros_vcu" type="ecu_communication" name="ecu_communication" output="screen">
+        <rosparam command="load" file="$(find ros_vcu)/config/ecu_communication.yaml"/>
+    </node>
+</launch>

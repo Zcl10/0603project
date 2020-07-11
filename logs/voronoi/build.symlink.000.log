@@ -1,0 +1,7 @@
+Symlinking /home/bit2/0603_project/tang_ws/devel/lib/libvoronoi_lib.so
+Symlinking /home/bit2/0603_project/tang_ws/devel/lib/voronoi/voronoi_function_test
+Symlinking /home/bit2/0603_project/tang_ws/devel/lib/voronoi/voronoi_benchmark
+Symlinking /home/bit2/0603_project/tang_ws/devel/lib/voronoi/voronoi_test_node
+Symlinking /home/bit2/0603_project/tang_ws/devel/lib/pkgconfig/voronoi.pc
+Symlinking /home/bit2/0603_project/tang_ws/devel/share/voronoi/cmake/voronoiConfig.cmake
+Symlinking /home/bit2/0603_project/tang_ws/devel/share/voronoi/cmake/voronoiConfig-version.cmake

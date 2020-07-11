@@ -1,0 +1,1 @@
+/home/bit2/0603_project/tang_ws/devel/.private/dbw_mkz_msgs/share/roseus/ros/dbw_mkz_msgs/msg/Misc1Report.l

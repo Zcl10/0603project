@@ -1,0 +1,1 @@
+/home/bit2/0603_project/tang_ws/devel/.private/opt_solver/share/opt_solver/cmake/opt_solverConfig-version.cmake

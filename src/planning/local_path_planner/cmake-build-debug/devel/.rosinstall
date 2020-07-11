@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/yao/0603_project/tang_ws/src/planning/local_path_planner/cmake-build-debug/devel/setup.sh

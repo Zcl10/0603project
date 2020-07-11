@@ -1,0 +1,9 @@
+In file included from [01m[K/home/bit2/0603_project/tang_ws/src/control/ecu_communication/include/CommunicationProcess.hpp:15:0[m[K,
+                 from [01m[K/home/bit2/0603_project/tang_ws/src/control/ecu_communication/src/CommunicationProcess.cpp:1[m[K:
+/home/bit2/0603_project/tang_ws/src/control/ecu_communication/include/shawn/SProportion.hpp: In instantiation of ‘[01m[Kbool shawn::SProportion::inputProportion(Types1 ...) [with Types1 = {int, int, int}][m[K’:
+[01m[K/home/bit2/0603_project/tang_ws/src/control/ecu_communication/src/CommunicationProcess.cpp:36:67:[m[K   required from here
+[01m[K/home/bit2/0603_project/tang_ws/src/control/ecu_communication/include/shawn/SProportion.hpp:21:43:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Kargs#0[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Ksize_t {aka long unsigned int}[m[K’ inside { } [-Wnarrowing]
+             size_t args_array[] = {args...};
+[01;32m[K                                           ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/control/ecu_communication/include/shawn/SProportion.hpp:21:43:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Kargs#1[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Ksize_t {aka long unsigned int}[m[K’ inside { } [-Wnarrowing]
+[01m[K/home/bit2/0603_project/tang_ws/src/control/ecu_communication/include/shawn/SProportion.hpp:21:43:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Kargs#2[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Ksize_t {aka long unsigned int}[m[K’ inside { } [-Wnarrowing]

@@ -1,0 +1,7 @@
+\subsubsection usage Usage
+\verbatim
+<node name="constrained_speed" pkg="constrained_speed" type="constrained_speed">
+  <param name="params_lock" type="bool" value="True" />
+</node>
+\endverbatim
+

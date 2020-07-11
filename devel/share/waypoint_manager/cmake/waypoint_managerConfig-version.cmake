@@ -1,0 +1,1 @@
+/home/bit2/0603_project/tang_ws/devel/.private/waypoint_manager/share/waypoint_manager/cmake/waypoint_managerConfig-version.cmake

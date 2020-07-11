@@ -1,0 +1,63 @@
+# path_tracking parameters
+pp_id: -1
+ribbon_id: -1
+ipopt_id: 0 # enum ControllerId { ReferPoint, Polynomial, Spline };
+# subscribe topics settings
+traj_topic:                /global_path/traj_plan # /global_path #
+gps_topic:                 gpsdata # sensor_fusion_output or gpsdata
+steer_topic:               steercmd
+# control settings
+tracking_mode:             local # local or global
+# enable flag settings
+vrep_sim_enable:           false
+python_sim_enable:         false
+rviz_enable:               true
+# time settings
+state_elapse_time_ms:      200.0
+path_elapse_time_ms:       200.0
+pose_elapse_time_ms:       200.0
+imu_elapse_time_ms:        200.0
+ins_elapse_time_ms:        200.0
+
+VehicleParameter:
+    r: 0.35
+    L: 2.73
+    B: 1.59
+    a: 1.24
+    b: 1.49
+    m: 3095
+    I: 3000
+    Cf: -30000
+    Cr: -30000
+
+ControlParameter:
+    dynamic: false
+    control_rate: 10
+    predict_N: 12
+    sample_time: 0.15
+    delay_time: 0.2
+    lowest_length: 20
+    lowest_velocity: 1
+    desire_velocity: 5
+    max_acceleration: 1.5
+    max_deceleration: -0.24
+    max_steer: 25 # deg ---front wheel
+    max_steer_rate: 12.5 # deg/s ---front wheel
+    steer_ratio: 17.7
+    lateral_acc: 5
+    Weight:
+        vel: 1
+        acc: 0.1
+        acc_rate: 3
+        cte: 1
+        epsi: 8
+        steer: 0.1
+        steer_rate: 200
+
+Ribbon:
+    road_width: 0.1 # unit: m
+    distance: 1.5 # unit: m
+    first_point_distance: 3.5 # unit: m
+
+PP:
+    k: 0.5

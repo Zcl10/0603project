@@ -1,0 +1,1 @@
+/home/bit2/0603_project/tang_ws/devel/.private/speed_ctrl_msgs/share/roseus/ros/speed_ctrl_msgs/manifest.l

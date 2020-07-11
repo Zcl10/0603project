@@ -1,0 +1,172 @@
+[35m[1mScanning dependencies of target voronoi_lib[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/voronoi_lib.dir/src/voronoi_diagram.cpp.o[0m
+In file included from [01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/voronoi/include/voronoi/voronoi_diagram.hpp:13:0[m[K,
+                 from [01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/voronoi/src/voronoi_diagram.cpp:4[m[K:
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/voronoi/include/voronoi/voronoi.h:[m[K In static member function ‘[01m[Kstatic bool VoronoiThinner::need_set_guo_hall(uchar*, int, int, int, int)[m[K’:
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/voronoi/include/voronoi/voronoi.h:582:16:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around operand of ‘[01m[K![m[K’ or change ‘[01m[K&[m[K’ to ‘[01m[K&&[m[K’ or ‘[01m[K![m[K’ to ‘[01m[K~[m[K’ [-Wparentheses]
+     int C  = (!p2 & (p3 | p4)) + (!p4 & (p5 | p6)) +
+[01;32m[K                ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/voronoi/include/voronoi/voronoi.h:582:36:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around operand of ‘[01m[K![m[K’ or change ‘[01m[K&[m[K’ to ‘[01m[K&&[m[K’ or ‘[01m[K![m[K’ to ‘[01m[K~[m[K’ [-Wparentheses]
+     int C  = (!p2 & (p3 | p4)) + (!p4 & (p5 | p6)) +
+[01;32m[K                                    ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/voronoi/include/voronoi/voronoi.h:583:16:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around operand of ‘[01m[K![m[K’ or change ‘[01m[K&[m[K’ to ‘[01m[K&&[m[K’ or ‘[01m[K![m[K’ to ‘[01m[K~[m[K’ [-Wparentheses]
+              (!p6 & (p7 | p8)) + (!p8 & (p9 | p2));
+[01;32m[K                ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/voronoi/include/voronoi/voronoi.h:583:36:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around operand of ‘[01m[K![m[K’ or change ‘[01m[K&[m[K’ to ‘[01m[K&&[m[K’ or ‘[01m[K![m[K’ to ‘[01m[K~[m[K’ [-Wparentheses]
+              (!p6 & (p7 | p8)) + (!p8 & (p9 | p2));
+[01;32m[K                                    ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/voronoi/include/voronoi/voronoi.h:[m[K In member function ‘[01m[Kvoid VoronoiThinner::thin_guo_hall_original_iter(cv::Mat&, int)[m[K’:
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/voronoi/include/voronoi/voronoi.h:749:23:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [-Wsign-compare]
+     for (int i = 1; i < rowmax; i++)
+[01;32m[K                       ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/voronoi/include/voronoi/voronoi.h:751:25:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [-Wsign-compare]
+       for (int j = 1; j < colmax; j++)
+[01;32m[K                         ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/voronoi/include/voronoi/voronoi.h:762:20:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around operand of ‘[01m[K![m[K’ or change ‘[01m[K&[m[K’ to ‘[01m[K&&[m[K’ or ‘[01m[K![m[K’ to ‘[01m[K~[m[K’ [-Wparentheses]
+         int C  = (!p2 & (p3 | p4)) + (!p4 & (p5 | p6)) +
+[01;32m[K                    ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/voronoi/include/voronoi/voronoi.h:762:40:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around operand of ‘[01m[K![m[K’ or change ‘[01m[K&[m[K’ to ‘[01m[K&&[m[K’ or ‘[01m[K![m[K’ to ‘[01m[K~[m[K’ [-Wparentheses]
+         int C  = (!p2 & (p3 | p4)) + (!p4 & (p5 | p6)) +
+[01;32m[K                                        ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/voronoi/include/voronoi/voronoi.h:763:20:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around operand of ‘[01m[K![m[K’ or change ‘[01m[K&[m[K’ to ‘[01m[K&&[m[K’ or ‘[01m[K![m[K’ to ‘[01m[K~[m[K’ [-Wparentheses]
+                  (!p6 & (p7 | p8)) + (!p8 & (p9 | p2));
+[01;32m[K                    ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/voronoi/include/voronoi/voronoi.h:763:40:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around operand of ‘[01m[K![m[K’ or change ‘[01m[K&[m[K’ to ‘[01m[K&&[m[K’ or ‘[01m[K![m[K’ to ‘[01m[K~[m[K’ [-Wparentheses]
+                  (!p6 & (p7 | p8)) + (!p8 & (p9 | p2));
+[01;32m[K                                        ^[m[K
+In file included from [01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/voronoi/src/voronoi_diagram.cpp:4:0[m[K:
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/voronoi/include/voronoi/voronoi_diagram.hpp:[m[K In constructor ‘[01m[KVoronoiDiagram::VoronoiDiagram(const grid_map::GridMap&, int, bool)[m[K’:
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/voronoi/include/voronoi/voronoi_diagram.hpp:80:12:[m[K [01;35m[Kwarning: [m[K‘[01m[KVoronoiDiagram::resolution_[m[K’ will be initialized after [-Wreorder]
+     double resolution_;
+[01;32m[K            ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/voronoi/include/voronoi/voronoi_diagram.hpp:77:23:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kgrid_map::GridMap VoronoiDiagram::voronoi_distance_[m[K’ [-Wreorder]
+     grid_map::GridMap voronoi_distance_;
+[01;32m[K                       ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/voronoi/src/voronoi_diagram.cpp:11:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [-Wreorder]
+ VoronoiDiagram::VoronoiDiagram(const grid_map::GridMap &map,
+[01;32m[K ^[m[K
+In file included from [01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/voronoi/src/voronoi_diagram.cpp:5:0[m[K:
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/voronoi/src/voronoi_diagram.cpp:[m[K In member function ‘[01m[Kdouble VoronoiDiagram::getMinDistanceToEdgesNew(int, int) const[m[K’:
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/voronoi/src/voronoi_diagram.cpp:129:24:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around comparison in operand of ‘[01m[K&[m[K’ [-Wparentheses]
+         CHECK(index(0) < voronoi_distance_.getSize()(0)
+[01;32m[K                        ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/voronoi/src/voronoi_diagram.cpp:[m[K In member function ‘[01m[Kdouble VoronoiDiagram::getMinDistanceToEdgesNew(double, double) const[m[K’:
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/voronoi/src/voronoi_diagram.cpp:154:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [-Wreturn-type]
+ }
+[01;32m[K ^[m[K
+[ 25%] [32m[1mLinking CXX shared library /home/bit2/0603_project/tang_ws/devel/.private/voronoi/lib/libvoronoi_lib.so[0m
+[ 25%] Built target voronoi_lib
+[35m[1mScanning dependencies of target voronoi_test_node[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/voronoi_test_node.dir/test/voroni_node.cpp.o[0m
+In file included from [01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/voronoi/include/voronoi/voronoi_diagram.hpp:13:0[m[K,
+                 from [01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/voronoi/test/voroni_node.cpp:8[m[K:
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/voronoi/include/voronoi/voronoi.h:[m[K In static member function ‘[01m[Kstatic bool VoronoiThinner::need_set_guo_hall(uchar*, int, int, int, int)[m[K’:
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/voronoi/include/voronoi/voronoi.h:582:16:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around operand of ‘[01m[K![m[K’ or change ‘[01m[K&[m[K’ to ‘[01m[K&&[m[K’ or ‘[01m[K![m[K’ to ‘[01m[K~[m[K’ [-Wparentheses]
+     int C  = (!p2 & (p3 | p4)) + (!p4 & (p5 | p6)) +
+[01;32m[K                ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/voronoi/include/voronoi/voronoi.h:582:36:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around operand of ‘[01m[K![m[K’ or change ‘[01m[K&[m[K’ to ‘[01m[K&&[m[K’ or ‘[01m[K![m[K’ to ‘[01m[K~[m[K’ [-Wparentheses]
+     int C  = (!p2 & (p3 | p4)) + (!p4 & (p5 | p6)) +
+[01;32m[K                                    ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/voronoi/include/voronoi/voronoi.h:583:16:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around operand of ‘[01m[K![m[K’ or change ‘[01m[K&[m[K’ to ‘[01m[K&&[m[K’ or ‘[01m[K![m[K’ to ‘[01m[K~[m[K’ [-Wparentheses]
+              (!p6 & (p7 | p8)) + (!p8 & (p9 | p2));
+[01;32m[K                ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/voronoi/include/voronoi/voronoi.h:583:36:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around operand of ‘[01m[K![m[K’ or change ‘[01m[K&[m[K’ to ‘[01m[K&&[m[K’ or ‘[01m[K![m[K’ to ‘[01m[K~[m[K’ [-Wparentheses]
+              (!p6 & (p7 | p8)) + (!p8 & (p9 | p2));
+[01;32m[K                                    ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/voronoi/include/voronoi/voronoi.h:[m[K In member function ‘[01m[Kvoid VoronoiThinner::thin_guo_hall_original_iter(cv::Mat&, int)[m[K’:
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/voronoi/include/voronoi/voronoi.h:749:23:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [-Wsign-compare]
+     for (int i = 1; i < rowmax; i++)
+[01;32m[K                       ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/voronoi/include/voronoi/voronoi.h:751:25:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [-Wsign-compare]
+       for (int j = 1; j < colmax; j++)
+[01;32m[K                         ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/voronoi/include/voronoi/voronoi.h:762:20:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around operand of ‘[01m[K![m[K’ or change ‘[01m[K&[m[K’ to ‘[01m[K&&[m[K’ or ‘[01m[K![m[K’ to ‘[01m[K~[m[K’ [-Wparentheses]
+         int C  = (!p2 & (p3 | p4)) + (!p4 & (p5 | p6)) +
+[01;32m[K                    ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/voronoi/include/voronoi/voronoi.h:762:40:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around operand of ‘[01m[K![m[K’ or change ‘[01m[K&[m[K’ to ‘[01m[K&&[m[K’ or ‘[01m[K![m[K’ to ‘[01m[K~[m[K’ [-Wparentheses]
+         int C  = (!p2 & (p3 | p4)) + (!p4 & (p5 | p6)) +
+[01;32m[K                                        ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/voronoi/include/voronoi/voronoi.h:763:20:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around operand of ‘[01m[K![m[K’ or change ‘[01m[K&[m[K’ to ‘[01m[K&&[m[K’ or ‘[01m[K![m[K’ to ‘[01m[K~[m[K’ [-Wparentheses]
+                  (!p6 & (p7 | p8)) + (!p8 & (p9 | p2));
+[01;32m[K                    ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/voronoi/include/voronoi/voronoi.h:763:40:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around operand of ‘[01m[K![m[K’ or change ‘[01m[K&[m[K’ to ‘[01m[K&&[m[K’ or ‘[01m[K![m[K’ to ‘[01m[K~[m[K’ [-Wparentheses]
+                  (!p6 & (p7 | p8)) + (!p8 & (p9 | p2));
+[01;32m[K                                        ^[m[K
+[35m[1mScanning dependencies of target voronoi_function_test[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/voronoi_function_test.dir/test/test_voronoi_function.cpp.o[0m
+[35m[1mScanning dependencies of target voronoi_benchmark[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/voronoi_benchmark.dir/test/voronoi_benchmark.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable /home/bit2/0603_project/tang_ws/devel/.private/voronoi/lib/voronoi/voronoi_test_node[0m
+[ 75%] Built target voronoi_test_node
+In file included from [01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/voronoi/include/voronoi/voronoi_diagram.hpp:13:0[m[K,
+                 from [01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/voronoi/test/test_voronoi_function.cpp:4[m[K:
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/voronoi/include/voronoi/voronoi.h:[m[K In static member function ‘[01m[Kstatic bool VoronoiThinner::need_set_guo_hall(uchar*, int, int, int, int)[m[K’:
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/voronoi/include/voronoi/voronoi.h:582:16:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around operand of ‘[01m[K![m[K’ or change ‘[01m[K&[m[K’ to ‘[01m[K&&[m[K’ or ‘[01m[K![m[K’ to ‘[01m[K~[m[K’ [-Wparentheses]
+     int C  = (!p2 & (p3 | p4)) + (!p4 & (p5 | p6)) +
+[01;32m[K                ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/voronoi/include/voronoi/voronoi.h:582:36:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around operand of ‘[01m[K![m[K’ or change ‘[01m[K&[m[K’ to ‘[01m[K&&[m[K’ or ‘[01m[K![m[K’ to ‘[01m[K~[m[K’ [-Wparentheses]
+     int C  = (!p2 & (p3 | p4)) + (!p4 & (p5 | p6)) +
+[01;32m[K                                    ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/voronoi/include/voronoi/voronoi.h:583:16:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around operand of ‘[01m[K![m[K’ or change ‘[01m[K&[m[K’ to ‘[01m[K&&[m[K’ or ‘[01m[K![m[K’ to ‘[01m[K~[m[K’ [-Wparentheses]
+              (!p6 & (p7 | p8)) + (!p8 & (p9 | p2));
+[01;32m[K                ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/voronoi/include/voronoi/voronoi.h:583:36:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around operand of ‘[01m[K![m[K’ or change ‘[01m[K&[m[K’ to ‘[01m[K&&[m[K’ or ‘[01m[K![m[K’ to ‘[01m[K~[m[K’ [-Wparentheses]
+              (!p6 & (p7 | p8)) + (!p8 & (p9 | p2));
+[01;32m[K                                    ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/voronoi/include/voronoi/voronoi.h:[m[K In member function ‘[01m[Kvoid VoronoiThinner::thin_guo_hall_original_iter(cv::Mat&, int)[m[K’:
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/voronoi/include/voronoi/voronoi.h:749:23:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [-Wsign-compare]
+     for (int i = 1; i < rowmax; i++)
+[01;32m[K                       ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/voronoi/include/voronoi/voronoi.h:751:25:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [-Wsign-compare]
+       for (int j = 1; j < colmax; j++)
+[01;32m[K                         ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/voronoi/include/voronoi/voronoi.h:762:20:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around operand of ‘[01m[K![m[K’ or change ‘[01m[K&[m[K’ to ‘[01m[K&&[m[K’ or ‘[01m[K![m[K’ to ‘[01m[K~[m[K’ [-Wparentheses]
+         int C  = (!p2 & (p3 | p4)) + (!p4 & (p5 | p6)) +
+[01;32m[K                    ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/voronoi/include/voronoi/voronoi.h:762:40:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around operand of ‘[01m[K![m[K’ or change ‘[01m[K&[m[K’ to ‘[01m[K&&[m[K’ or ‘[01m[K![m[K’ to ‘[01m[K~[m[K’ [-Wparentheses]
+         int C  = (!p2 & (p3 | p4)) + (!p4 & (p5 | p6)) +
+[01;32m[K                                        ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/voronoi/include/voronoi/voronoi.h:763:20:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around operand of ‘[01m[K![m[K’ or change ‘[01m[K&[m[K’ to ‘[01m[K&&[m[K’ or ‘[01m[K![m[K’ to ‘[01m[K~[m[K’ [-Wparentheses]
+                  (!p6 & (p7 | p8)) + (!p8 & (p9 | p2));
+[01;32m[K                    ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/voronoi/include/voronoi/voronoi.h:763:40:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around operand of ‘[01m[K![m[K’ or change ‘[01m[K&[m[K’ to ‘[01m[K&&[m[K’ or ‘[01m[K![m[K’ to ‘[01m[K~[m[K’ [-Wparentheses]
+                  (!p6 & (p7 | p8)) + (!p8 & (p9 | p2));
+[01;32m[K                                        ^[m[K
+In file included from [01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/voronoi/include/voronoi/voronoi_diagram.hpp:13:0[m[K,
+                 from [01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/voronoi/test/voronoi_benchmark.cpp:7[m[K:
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/voronoi/include/voronoi/voronoi.h:[m[K In static member function ‘[01m[Kstatic bool VoronoiThinner::need_set_guo_hall(uchar*, int, int, int, int)[m[K’:
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/voronoi/include/voronoi/voronoi.h:582:16:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around operand of ‘[01m[K![m[K’ or change ‘[01m[K&[m[K’ to ‘[01m[K&&[m[K’ or ‘[01m[K![m[K’ to ‘[01m[K~[m[K’ [-Wparentheses]
+     int C  = (!p2 & (p3 | p4)) + (!p4 & (p5 | p6)) +
+[01;32m[K                ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/voronoi/include/voronoi/voronoi.h:582:36:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around operand of ‘[01m[K![m[K’ or change ‘[01m[K&[m[K’ to ‘[01m[K&&[m[K’ or ‘[01m[K![m[K’ to ‘[01m[K~[m[K’ [-Wparentheses]
+     int C  = (!p2 & (p3 | p4)) + (!p4 & (p5 | p6)) +
+[01;32m[K                                    ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/voronoi/include/voronoi/voronoi.h:583:16:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around operand of ‘[01m[K![m[K’ or change ‘[01m[K&[m[K’ to ‘[01m[K&&[m[K’ or ‘[01m[K![m[K’ to ‘[01m[K~[m[K’ [-Wparentheses]
+              (!p6 & (p7 | p8)) + (!p8 & (p9 | p2));
+[01;32m[K                ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/voronoi/include/voronoi/voronoi.h:583:36:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around operand of ‘[01m[K![m[K’ or change ‘[01m[K&[m[K’ to ‘[01m[K&&[m[K’ or ‘[01m[K![m[K’ to ‘[01m[K~[m[K’ [-Wparentheses]
+              (!p6 & (p7 | p8)) + (!p8 & (p9 | p2));
+[01;32m[K                                    ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/voronoi/include/voronoi/voronoi.h:[m[K In member function ‘[01m[Kvoid VoronoiThinner::thin_guo_hall_original_iter(cv::Mat&, int)[m[K’:
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/voronoi/include/voronoi/voronoi.h:749:23:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [-Wsign-compare]
+     for (int i = 1; i < rowmax; i++)
+[01;32m[K                       ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/voronoi/include/voronoi/voronoi.h:751:25:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [-Wsign-compare]
+       for (int j = 1; j < colmax; j++)
+[01;32m[K                         ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/voronoi/include/voronoi/voronoi.h:762:20:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around operand of ‘[01m[K![m[K’ or change ‘[01m[K&[m[K’ to ‘[01m[K&&[m[K’ or ‘[01m[K![m[K’ to ‘[01m[K~[m[K’ [-Wparentheses]
+         int C  = (!p2 & (p3 | p4)) + (!p4 & (p5 | p6)) +
+[01;32m[K                    ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/voronoi/include/voronoi/voronoi.h:762:40:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around operand of ‘[01m[K![m[K’ or change ‘[01m[K&[m[K’ to ‘[01m[K&&[m[K’ or ‘[01m[K![m[K’ to ‘[01m[K~[m[K’ [-Wparentheses]
+         int C  = (!p2 & (p3 | p4)) + (!p4 & (p5 | p6)) +
+[01;32m[K                                        ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/voronoi/include/voronoi/voronoi.h:763:20:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around operand of ‘[01m[K![m[K’ or change ‘[01m[K&[m[K’ to ‘[01m[K&&[m[K’ or ‘[01m[K![m[K’ to ‘[01m[K~[m[K’ [-Wparentheses]
+                  (!p6 & (p7 | p8)) + (!p8 & (p9 | p2));
+[01;32m[K                    ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/voronoi/include/voronoi/voronoi.h:763:40:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around operand of ‘[01m[K![m[K’ or change ‘[01m[K&[m[K’ to ‘[01m[K&&[m[K’ or ‘[01m[K![m[K’ to ‘[01m[K~[m[K’ [-Wparentheses]
+                  (!p6 & (p7 | p8)) + (!p8 & (p9 | p2));
+[01;32m[K                                        ^[m[K
+[ 87%] [32m[1mLinking CXX executable /home/bit2/0603_project/tang_ws/devel/.private/voronoi/lib/voronoi/voronoi_benchmark[0m
+[100%] [32m[1mLinking CXX executable /home/bit2/0603_project/tang_ws/devel/.private/voronoi/lib/voronoi/voronoi_function_test[0m
+[100%] Built target voronoi_benchmark
+[100%] Built target voronoi_function_test

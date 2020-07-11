@@ -1,0 +1,1 @@
+/home/bit2/0603_project/tang_ws/devel/.private/a_star_double_xml/share/a_star_double_xml/cmake/a_star_double_xmlConfig-version.cmake

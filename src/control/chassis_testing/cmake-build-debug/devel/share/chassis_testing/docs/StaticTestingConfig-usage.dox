@@ -1,0 +1,10 @@
+\subsubsection usage Usage
+\verbatim
+<node name="static_testing_node" pkg="chassis_testing" type="static_testing_node">
+  <param name="gear" type="int" value="0" />
+  <param name="target_torque" type="double" value="0.0" />
+  <param name="halt" type="double" value="0.0" />
+  <param name="steer_degree" type="int" value="0" />
+</node>
+\endverbatim
+

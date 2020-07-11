@@ -1,0 +1,1 @@
+/home/bit2/0603_project/tang_ws/devel/.private/extractroad_msg/share/roseus/ros/extractroad_msg/manifest.l

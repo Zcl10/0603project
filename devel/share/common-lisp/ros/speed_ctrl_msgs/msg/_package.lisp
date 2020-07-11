@@ -1,0 +1,1 @@
+/home/bit2/0603_project/tang_ws/devel/.private/speed_ctrl_msgs/share/common-lisp/ros/speed_ctrl_msgs/msg/_package.lisp

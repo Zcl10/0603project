@@ -1,0 +1,10 @@
+/home/bit2/0603_project/tang_ws/src/planning/a_star_double_xml/include/stlastar.h:0: Note: No relevant classes found. No output generated.
+/home/bit2/0603_project/tang_ws/src/planning/a_star_double_xml/include/MapSearchNode.h:0: Note: No relevant classes found. No output generated.
+/home/bit2/0603_project/tang_ws/src/planning/a_star_double_xml/include/MapMatch.h:0: Note: No relevant classes found. No output generated.
+/home/bit2/0603_project/tang_ws/src/planning/a_star_double_xml/include/fsa.h:0: Note: No relevant classes found. No output generated.
+/home/bit2/0603_project/tang_ws/src/planning/a_star_double_xml/include/ui_astardoublexml.h:0: Note: No relevant classes found. No output generated.
+/home/bit2/0603_project/tang_ws/src/planning/a_star_double_xml/include/AttachXmlFile.h:0: Note: No relevant classes found. No output generated.
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/a_star_double_xml/src/AttachXmlFile.cpp:[m[K In member function ‘[01m[Kvoid AttachXmlFile::bsplineInterpolate(const Way&, lanelet_map_msgs::Way*)[m[K’:
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/a_star_double_xml/src/AttachXmlFile.cpp:5046:49:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Klong unsigned int[m[K’ [-Wformat=]
+     printf("Debug: sample num %d\n", length_size);
+[01;32m[K                                                 ^[m[K

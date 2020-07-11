@@ -1,0 +1,68 @@
+#!/usr/bin/env python
+from rosparam_handler.parameter_generator_catkin import *
+
+enum_strings=["BLACK", "PINK", "SKY_BLUE", "LIGHT_GREEN", "GREY", "WHITE", "CYAN", "BLUE", "DARK_CYAN", "GREEN", "RED"]
+gen = ParameterGenerator()
+gen.add("enable_display", paramtype="bool", default="False", description="Display Visualization", configurable=False)
+gen.add_enum("shared_colors", description="start_marker_color",entry_strings=enum_strings, default="RED")
+start_marker_group = gen.add_group("start_marker_group")
+start_marker_group.add("start_marker_size", paramtype="double", default=1.0, min=0.5, max=4, configurable=True, description="Start Marker Size")
+start_marker_group.add("start_marker_name", paramtype="std::string", default="start", description="Marker Name")
+start_marker_group.add("start_marker_frame", paramtype="std::string", default="/map", description="Marker Frame",  configurable=True)
+start_marker_group.add("start_marker_alpha", paramtype="double", default=1.0, min=0.0, max=1.0, configurable=True, description="Start Marker alpha")
+start_marker_group.add("start_marker_color", paramtype="int", edit_method="shared_colors", default=7, configurable=True, description="Start Marker alpha")
+
+
+goal_marker_group = gen.add_group("goal_marker_group")
+goal_marker_group.add("goal_marker_size", paramtype="double", default=1.0, min=0.5, max=4, configurable=True, description="Goal Marker Size")
+goal_marker_group.add("goal_marker_name", paramtype="std::string", default="goal", description="Marker Name")
+goal_marker_group.add("goal_marker_frame", paramtype="std::string", default="/map",  description="Marker Frame",  configurable=True)
+goal_marker_group.add("goal_marker_alpha", paramtype="double", default=1.0, min=0.0, max=1.0, configurable=True, description="Goal Marker alpha")
+goal_marker_group.add("goal_marker_color", paramtype="int", edit_method="shared_colors", default=9,configurable=True, description="Goal Marker alpha")
+
+circle_marker_group = gen.add_group("circle_marker_group")
+circle_marker_group.add("circle_marker_size", paramtype="double", default=0.1, min=0.05, max=0.3, configurable=True, description="Circle Marker Size")
+circle_marker_group.add("circle_marker_name", paramtype="std::string", default="circle", description="Marker Name")
+circle_marker_group.add("circle_marker_frame", paramtype="std::string", default="/map",  description="Marker Frame",  configurable=True)
+circle_marker_group.add("circle_marker_alpha", paramtype="double", default=1.0, min=0.0, max=1.0, configurable=True, description="Circle Marker alpha")
+circle_marker_group.add("circle_marker_color", paramtype="int", edit_method="shared_colors", default=8, configurable=True, description="Circle Marker alpha")
+
+path_marker_group = gen.add_group("path_group")
+path_marker_group.add("enable_internal_path_display", paramtype="bool", default=False, configurable=True, description="Enable internal path display")
+path_marker_group.add("inter_path_width", paramtype="double", default=0.08, min=0.05, max=0.3, configurable=True, description="Path Width")
+path_marker_group.add("inter_path_name", paramtype="std::string", default="inter_path",  description="Path Marker Name")
+path_marker_group.add("inter_path_marker_frame", paramtype="std::string", default="/map", description="Path Marker Frame",  configurable=True)
+path_marker_group.add("inter_path_marker_alpha", paramtype="double", default=1.0, min=0.0, max=1.0, configurable=True, description="Path Marker alpha")
+path_marker_group.add("inter_path_marker_color", paramtype="int", edit_method="shared_colors",default=0, configurable=True, description="Path Marker alpha")
+
+
+path_marker_group.add("path_node_size", paramtype="double", default=0.2, min=0.05, max=0.5, configurable=True, description="Path Node Size")
+path_marker_group.add("path_node_name",  paramtype="std::string", default="path_node",  description="Path Node Marker Name")
+path_marker_group.add("path_node_frame", paramtype="std::string", default="/map", description="Path Node Marker Frame",  configurable=True)
+path_marker_group.add("path_node_alpha", paramtype="double", default=1.0, min=0.0, max=1.0, configurable=True, description="Path Node Marker alpha")
+path_marker_group.add("path_node_color", paramtype="int", edit_method="shared_colors", default=10,configurable=True, description="Path Node Marker alpha")
+
+
+circle_path_group = gen.add_group("circle_path_group")
+circle_path_group.add("circle_path_width", paramtype="double", default=0.1, min=0.01, max=0.3, configurable=True, description="Path Width")
+circle_path_group.add("circle_path_name", paramtype="std::string", default="circle_path", description="Circle Path Marker")
+circle_path_group.add("circle_path_frame", paramtype="std::string", default="/map", description="Circle Path Frame", configurable=True)
+circle_path_group.add("circle_path_alpha", paramtype="double", default=1.0, min=0.0, max=1.0, configurable=True, description="Circle Path Alpha")
+circle_path_group.add("circle_path_color", paramtype="int", edit_method="shared_colors", default=10, configurable=True, description="Path Node Color")
+
+circle_path_group.add("circle_path_node_size", paramtype="double", default=0.3, min=0.05, max=0.5, configurable=True, description="Circle Path Node Size")
+circle_path_group.add("circle_path_node_name",  paramtype="std::string", default="circle_path_node",  description="Circle Path Node Marker Name")
+circle_path_group.add("circle_path_node_frame", paramtype="std::string", default="/map", description="Circle Path Node Marker Frame",  configurable=True)
+circle_path_group.add("circle_path_node_alpha", paramtype="double", default=1.0, min=0.0, max=1.0, configurable=True, description="Circle Path Node Marker alpha")
+circle_path_group.add("circle_path_node_color", paramtype="int", edit_method="shared_colors", default=0, configurable=True, description="Circle Path Node Marker alpha")
+
+
+final_path_group = gen.add_group("final_path_group")
+final_path_group.add("enable_final_path_display", paramtype="bool", default=False, configurable=True, description="Enable final path display")
+final_path_group.add("final_path_width", paramtype="double", default=0.15, min=0.01, max=0.3, configurable=True, description="Path Width")
+final_path_group.add("final_path_name", paramtype="std::string", default="final_path", description="final Path Marker")
+final_path_group.add("final_path_frame", paramtype="std::string", default="/map", description="final Path Frame", configurable=True)
+final_path_group.add("final_path_alpha", paramtype="double", default=1.0, min=0.0, max=1.0, configurable=True, description="Circle Path Alpha")
+final_path_group.add("final_path_color", paramtype="int", edit_method="shared_colors", default=9, configurable=True, description="Final Path Color")
+
+exit(gen.generate("space_explore", "visualization_node", "Visual"))

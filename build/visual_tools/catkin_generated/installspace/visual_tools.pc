@@ -1,0 +1,8 @@
+prefix=/home/bit2/0603_project/tang_ws/install
+
+Name: visual_tools
+Description: Description of visual_tools
+Version: 0.0.1
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lvisual_tools
+Requires: roscpp roslib tf2_eigen tf2

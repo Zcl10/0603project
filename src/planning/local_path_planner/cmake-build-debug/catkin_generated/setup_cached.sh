@@ -1,0 +1,14 @@
+#!/usr/bin/env sh
+# generated from catkin/python/catkin/environment_cache.py
+
+# based on a snapshot of the environment before and after calling the setup script
+# it emulates the modifications of the setup script without recurring computations
+
+# new environment variables
+
+# modified environment variables
+export CMAKE_PREFIX_PATH="/home/yao/0603_project/tang_ws/src/planning/local_path_planner/cmake-build-debug/devel:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/yao/0603_project/tang_ws/src/planning/local_path_planner/cmake-build-debug/devel/lib:$LD_LIBRARY_PATH"
+export PKG_CONFIG_PATH="/home/yao/0603_project/tang_ws/src/planning/local_path_planner/cmake-build-debug/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
+export ROSLISP_PACKAGE_DIRECTORIES="/home/yao/0603_project/tang_ws/src/planning/local_path_planner/cmake-build-debug/devel/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/yao/cw_project/ivrc_ws/src/planning/local_path_planner:/home/yao/ivrc/cw_project/ivrc_ws/src/planning/local_path_planner:/home/yao/0603_project/tang_ws/src/planning/local_path_planner:/home/yao/0603_project/tang_ws/src/msgs/dbw_mkz_msgs:/home/yao/0603_project/tang_ws/src/msgs/anm_msgs:/home/yao/0603_project/tang_ws/src/msgs/extractroad_msg:/home/yao/0603_project/tang_ws/src/planning/dependent_package/gps_utils:/home/yao/0603_project/tang_ws/src/msgs/lanelet_map_msgs:/home/yao/0603_project/tang_ws/src/planning/dependent_package/opt_utils:/home/yao/0603_project/tang_ws/src/planning/dependent_package/car_model:/home/yao/0603_project/tang_ws/src/planning/dependent_package/internal_grid_map:/home/yao/0603_project/tang_ws/src/planning/dependent_package/opt_solver:/home/yao/0603_project/tang_ws/src/msgs/plan2control_msgs:/home/yao/0603_project/tang_ws/src/msgs/sensor_driver_msgs:/home/yao/0603_project/tang_ws/src/msgs/control_msgs:/home/yao/0603_project/tang_ws/src/msgs/stiffmsgs:/home/yao/0603_project/tang_ws/src/planning/dependent_package/tinyspline_ros:/home/yao/0603_project/tang_ws/src/planning/dependent_package/transform_tools:/home/yao/0603_project/tang_ws/src/planning/a_star_double_xml:/home/yao/0603_project/tang_ws/src/msgs/uuid_msgs:/home/yao/0603_project/tang_ws/src/planning/dependent_package/unique_id:/home/yao/0603_project/tang_ws/src/planning/guidance_point:/home/yao/0603_project/tang_ws/src/planning/dependent_package/visual_tools:/home/yao/0603_project/tang_ws/src/planning/dependent_package/voronoi:/home/yao/0603_project/tang_ws/src/planning/path_smoothing:/home/yao/0603_project/tang_ws/src/planning/space_explore:/home/yao/0603_project/tang_ws/src/planning/state_sampling:/home/yao/0603_project/tang_ws/src/planning/local_path_planner:/opt/ros/kinetic/share"

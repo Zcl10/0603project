@@ -1,0 +1,2 @@
+set(three_one_msgs_MESSAGE_FILES "msg/ControlSpeed.msg;msg/ControlSteer.msg;msg/ControlSuspension.msg;msg/ControlWeapon.msg;msg/Control.msg;msg/ReportMotion.msg;msg/ReportTorque.msg;msg/ReportDistance.msg;msg/ReportVehicleState.msg;msg/ReportCylinderPosition.msg;msg/ReportCylinderPressure.msg;msg/ReportGiveBack.msg;msg/ReportControlData.msg;msg/Report.msg;msg/RawdataRecv.msg;msg/RawdataSend.msg")
+set(three_one_msgs_SERVICE_FILES "")

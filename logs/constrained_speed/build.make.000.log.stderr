@@ -1,0 +1,8 @@
+catkin_generated/env_cached.sh: 16: exec: /home/bit2/0603_project/tang_ws/src/control/constrained_speed/cfg/cs_method2.params: Permission denied
+catkin_generated/env_cached.sh: 16: exec: /home/bit2/0603_project/tang_ws/src/control/constrained_speed/cfg/cs_method2.params: Permission denied
+make[2]: *** [/home/bit2/0603_project/tang_ws/devel/.private/constrained_speed/include/constrained_speed/cs_method2Parameters.h] Error 126
+make[2]: *** [/home/bit2/0603_project/tang_ws/devel/.private/constrained_speed/include/constrained_speed/cs_method2Parameters.h] Error 126
+make[1]: *** [CMakeFiles/constrained_speed_genparam.dir/all] Error 2
+make[1]: *** 正在等待未完成的任务....
+make[1]: *** [CMakeFiles/constrained_speed_gencfg.dir/all] Error 2
+make: *** [all] Error 2

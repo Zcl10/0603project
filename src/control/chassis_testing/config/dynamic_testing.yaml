@@ -1,0 +1,10 @@
+publish_rate: 10 # Hz
+lateral_acc: 0 # [-4, 4] m/s2
+max_speed: 10.0 # [10.0, 40.0] km/h
+prepare_time: 15.0 # s
+maintain_time: 30.0 # s
+
+#                 ------------------- max_speed
+#                     maintain_time
+# 0 --------------                   ---------------------------- 0
+#    prepare_time

@@ -1,0 +1,1 @@
+/home/bit2/0603_project/tang_ws/devel/.private/extractroad_msg/share/common-lisp/ros/extractroad_msg/msg/extractroad_msg-msg.asd

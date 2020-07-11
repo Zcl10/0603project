@@ -1,0 +1,45 @@
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[  0%] Built target std_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target _path_tracking_generate_messages_check_deps_ModelParameter[0m
+[  0%] Built target _path_tracking_generate_messages_check_deps_ModelParameter
+[35m[1mScanning dependencies of target _path_tracking_generate_messages_check_deps_observer[0m
+[  0%] Built target _path_tracking_generate_messages_check_deps_observer
+[35m[1mScanning dependencies of target control_msgs_generate_messages_lisp[0m
+[  0%] Built target control_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target anm_msgs_generate_messages_lisp[0m
+[  0%] Built target anm_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[  0%] Built target std_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target control_msgs_generate_messages_cpp[0m
+[  0%] Built target control_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target anm_msgs_generate_messages_cpp[0m
+[  0%] Built target anm_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target anm_msgs_generate_messages_py[0m
+[  0%] Built target anm_msgs_generate_messages_py
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[  0%] Built target std_msgs_generate_messages_py
+[35m[1mScanning dependencies of target control_msgs_generate_messages_py[0m
+[  0%] Built target control_msgs_generate_messages_py
+[35m[1mScanning dependencies of target anm_msgs_generate_messages_nodejs[0m
+[  0%] Built target anm_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target control_msgs_generate_messages_nodejs[0m
+[  0%] Built target control_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[  0%] Built target std_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target anm_msgs_generate_messages_eus[0m
+[  0%] Built target anm_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[  0%] Built target std_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target control_msgs_generate_messages_eus[0m
+[  0%] Built target control_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target path_tracking_node[0m
+[  4%] [32mBuilding CXX object CMakeFiles/path_tracking_node.dir/src/lateral_control_node.cpp.o[0m
+In file included from [01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/src/lateral_control_node.cpp:2:0[m[K:
+[01m[K/home/bit2/0603_project/tang_ws/src/control/path_tracking/include/lateral_control_core.h:5:36:[m[K [01;31m[Kfatal error: [m[Kpath_tracking/observer.h: 没有那个文件或目录
+compilation terminated.
+CMakeFiles/path_tracking_node.dir/build.make:62: recipe for target 'CMakeFiles/path_tracking_node.dir/src/lateral_control_node.cpp.o' failed
+make[2]: *** [CMakeFiles/path_tracking_node.dir/src/lateral_control_node.cpp.o] Error 1
+CMakeFiles/Makefile2:2560: recipe for target 'CMakeFiles/path_tracking_node.dir/all' failed
+make[1]: *** [CMakeFiles/path_tracking_node.dir/all] Error 2
+Makefile:138: recipe for target 'all' failed
+make: *** [all] Error 2

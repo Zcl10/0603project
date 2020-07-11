@@ -1,0 +1,5 @@
+Symlinking /home/bit2/0603_project/tang_ws/devel/lib/libvisual_tools.so
+Symlinking /home/bit2/0603_project/tang_ws/devel/lib/pkgconfig/visual_tools.pc
+Symlinking /home/bit2/0603_project/tang_ws/devel/lib/visual_tools/demo_node
+Symlinking /home/bit2/0603_project/tang_ws/devel/share/visual_tools/cmake/visual_toolsConfig.cmake
+Symlinking /home/bit2/0603_project/tang_ws/devel/share/visual_tools/cmake/visual_toolsConfig-version.cmake

@@ -1,0 +1,29 @@
+upper_layer_send: true
+upper_layer_receive: true
+lower_layer_send: true
+lower_layer_receive: true
+remote_receive: false
+remote_send: false
+
+ecu_local_ip: "192.168.1.112"
+ecu_local_port: 9010
+ecu_remote_ip: "192.168.1.120"
+ecu_remote_port: 4002
+
+remote_local_ip: "192.168.0.112"
+remote_local_port: 13100
+remote_remote_ip: "192.168.0.115"
+remote_remote_port: 13010
+
+reconfig: false
+send_default_when_no_msg: true
+log_rawdata: false
+publish_rawdata: true
+force_autonomous: true #force use autonomous mode
+
+limit_speed: 20.0
+limit_thousand_curv: 1300
+
+files: []
+
+chamber_fix_default: true

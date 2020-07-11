@@ -1,0 +1,7 @@
+publish_rate: 10 # Hz
+
+gear: 4
+target_torque: 0.0 # 
+halt: 0
+steer_degree: 0 # [-30, 30]
+

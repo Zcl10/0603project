@@ -1,0 +1,8 @@
+prefix=/home/bit2/0603_project/tang_ws/install
+
+Name: local_path_planner
+Description: Description of local_path_planner
+Version: 1.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -llocal_path_planner
+Requires: opt_utils roslib roscpp grid_map_ros nav_msgs space_explore state_sampling internal_grid_map visualization_msgs car_model transform_tools guidance_point control_msgs dbw_mkz_msgs path_smoothing

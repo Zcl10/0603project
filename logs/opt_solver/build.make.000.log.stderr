@@ -1,0 +1,446 @@
+In file included from [01m[K/usr/local/include/coin/IpJournalist.hpp:14:0[m[K,
+                 from [01m[K/usr/local/include/coin/IpIpoptApplication.hpp:26[m[K,
+                 from [01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/opt_solver/src/nlp_solver.cpp:2[m[K:
+[01m[K/usr/local/include/coin/IpReferenced.hpp:215:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreferencer[m[K’ [-Wunused-parameter]
+   void ReferencedObject::AddRef(const Referencer* referencer) const
+[01;32m[K                                                   ^[m[K
+[01m[K/usr/local/include/coin/IpReferenced.hpp:227:55:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreferencer[m[K’ [-Wunused-parameter]
+   void ReferencedObject::ReleaseRef(const Referencer* referencer) const
+[01;32m[K                                                       ^[m[K
+In file included from [01m[K/usr/local/include/coin/IpIpoptApplication.hpp:27:0[m[K,
+                 from [01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/opt_solver/src/nlp_solver.cpp:2[m[K:
+[01m[K/usr/local/include/coin/IpTNLP.hpp:90:45:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kn[m[K’ [-Wunused-parameter]
+     virtual bool get_var_con_metadata(Index n,
+[01;32m[K                                             ^[m[K
+[01m[K/usr/local/include/coin/IpTNLP.hpp:91:62:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kvar_string_md[m[K’ [-Wunused-parameter]
+                                       StringMetaDataMapType& var_string_md,
+[01;32m[K                                                              ^[m[K
+[01m[K/usr/local/include/coin/IpTNLP.hpp:92:63:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kvar_integer_md[m[K’ [-Wunused-parameter]
+                                       IntegerMetaDataMapType& var_integer_md,
+[01;32m[K                                                               ^[m[K
+[01m[K/usr/local/include/coin/IpTNLP.hpp:93:63:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kvar_numeric_md[m[K’ [-Wunused-parameter]
+                                       NumericMetaDataMapType& var_numeric_md,
+[01;32m[K                                                               ^[m[K
+[01m[K/usr/local/include/coin/IpTNLP.hpp:94:45:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Km[m[K’ [-Wunused-parameter]
+                                       Index m,
+[01;32m[K                                             ^[m[K
+[01m[K/usr/local/include/coin/IpTNLP.hpp:95:62:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcon_string_md[m[K’ [-Wunused-parameter]
+                                       StringMetaDataMapType& con_string_md,
+[01;32m[K                                                              ^[m[K
+[01m[K/usr/local/include/coin/IpTNLP.hpp:96:63:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcon_integer_md[m[K’ [-Wunused-parameter]
+                                       IntegerMetaDataMapType& con_integer_md,
+[01;32m[K                                                               ^[m[K
+[01m[K/usr/local/include/coin/IpTNLP.hpp:97:63:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcon_numeric_md[m[K’ [-Wunused-parameter]
+                                       NumericMetaDataMapType& con_numeric_md)
+[01;32m[K                                                               ^[m[K
+[01m[K/usr/local/include/coin/IpTNLP.hpp:119:49:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kobj_scaling[m[K’ [-Wunused-parameter]
+     virtual bool get_scaling_parameters(Number& obj_scaling,
+[01;32m[K                                                 ^[m[K
+[01m[K/usr/local/include/coin/IpTNLP.hpp:120:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kuse_x_scaling[m[K’ [-Wunused-parameter]
+                                         bool& use_x_scaling, Index n,
+[01;32m[K                                               ^[m[K
+[01m[K/usr/local/include/coin/IpTNLP.hpp:120:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kn[m[K’ [-Wunused-parameter]
+                                         bool& use_x_scaling, Index n,
+[01;32m[K                                                                    ^[m[K
+[01m[K/usr/local/include/coin/IpTNLP.hpp:121:49:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx_scaling[m[K’ [-Wunused-parameter]
+                                         Number* x_scaling,
+[01;32m[K                                                 ^[m[K
+[01m[K/usr/local/include/coin/IpTNLP.hpp:122:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kuse_g_scaling[m[K’ [-Wunused-parameter]
+                                         bool& use_g_scaling, Index m,
+[01;32m[K                                               ^[m[K
+[01m[K/usr/local/include/coin/IpTNLP.hpp:122:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Km[m[K’ [-Wunused-parameter]
+                                         bool& use_g_scaling, Index m,
+[01;32m[K                                                                    ^[m[K
+[01m[K/usr/local/include/coin/IpTNLP.hpp:123:49:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kg_scaling[m[K’ [-Wunused-parameter]
+                                         Number* g_scaling)
+[01;32m[K                                                 ^[m[K
+[01m[K/usr/local/include/coin/IpTNLP.hpp:132:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kn[m[K’ [-Wunused-parameter]
+     virtual bool get_variables_linearity(Index n, LinearityType* var_types)
+[01;32m[K                                                ^[m[K
+[01m[K/usr/local/include/coin/IpTNLP.hpp:132:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kvar_types[m[K’ [-Wunused-parameter]
+     virtual bool get_variables_linearity(Index n, LinearityType* var_types)
+[01;32m[K                                                                  ^[m[K
+[01m[K/usr/local/include/coin/IpTNLP.hpp:140:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Km[m[K’ [-Wunused-parameter]
+     virtual bool get_constraints_linearity(Index m, LinearityType* const_types)
+[01;32m[K                                                  ^[m[K
+[01m[K/usr/local/include/coin/IpTNLP.hpp:140:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kconst_types[m[K’ [-Wunused-parameter]
+     virtual bool get_constraints_linearity(Index m, LinearityType* const_types)
+[01;32m[K                                                                    ^[m[K
+[01m[K/usr/local/include/coin/IpTNLP.hpp:161:57:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kwarm_start_iterate[m[K’ [-Wunused-parameter]
+     virtual bool get_warm_start_iterate(IteratesVector& warm_start_iterate)
+[01;32m[K                                                         ^[m[K
+[01m[K/usr/local/include/coin/IpTNLP.hpp:196:31:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kn[m[K’ [-Wunused-parameter]
+     virtual bool eval_h(Index n, const Number* x, bool new_x,
+[01;32m[K                               ^[m[K
+[01m[K/usr/local/include/coin/IpTNLP.hpp:196:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [-Wunused-parameter]
+     virtual bool eval_h(Index n, const Number* x, bool new_x,
+[01;32m[K                                                ^[m[K
+[01m[K/usr/local/include/coin/IpTNLP.hpp:196:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knew_x[m[K’ [-Wunused-parameter]
+     virtual bool eval_h(Index n, const Number* x, bool new_x,
+[01;32m[K                                                        ^[m[K
+[01m[K/usr/local/include/coin/IpTNLP.hpp:197:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kobj_factor[m[K’ [-Wunused-parameter]
+                         Number obj_factor, Index m, const Number* lambda,
+[01;32m[K                                ^[m[K
+[01m[K/usr/local/include/coin/IpTNLP.hpp:197:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Km[m[K’ [-Wunused-parameter]
+                         Number obj_factor, Index m, const Number* lambda,
+[01;32m[K                                                  ^[m[K
+[01m[K/usr/local/include/coin/IpTNLP.hpp:197:67:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klambda[m[K’ [-Wunused-parameter]
+                         Number obj_factor, Index m, const Number* lambda,
+[01;32m[K                                                                   ^[m[K
+[01m[K/usr/local/include/coin/IpTNLP.hpp:198:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knew_lambda[m[K’ [-Wunused-parameter]
+                         bool new_lambda, Index nele_hess,
+[01;32m[K                              ^[m[K
+[01m[K/usr/local/include/coin/IpTNLP.hpp:198:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knele_hess[m[K’ [-Wunused-parameter]
+                         bool new_lambda, Index nele_hess,
+[01;32m[K                                                ^[m[K
+[01m[K/usr/local/include/coin/IpTNLP.hpp:199:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KiRow[m[K’ [-Wunused-parameter]
+                         Index* iRow, Index* jCol, Number* values)
+[01;32m[K                                ^[m[K
+[01m[K/usr/local/include/coin/IpTNLP.hpp:199:45:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KjCol[m[K’ [-Wunused-parameter]
+                         Index* iRow, Index* jCol, Number* values)
+[01;32m[K                                             ^[m[K
+[01m[K/usr/local/include/coin/IpTNLP.hpp:199:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kvalues[m[K’ [-Wunused-parameter]
+                         Index* iRow, Index* jCol, Number* values)
+[01;32m[K                                                           ^[m[K
+[01m[K/usr/local/include/coin/IpTNLP.hpp:226:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kn[m[K’ [-Wunused-parameter]
+     virtual void finalize_metadata(Index n,
+[01;32m[K                                          ^[m[K
+[01m[K/usr/local/include/coin/IpTNLP.hpp:227:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kvar_string_md[m[K’ [-Wunused-parameter]
+                                    const StringMetaDataMapType& var_string_md,
+[01;32m[K                                                                 ^[m[K
+[01m[K/usr/local/include/coin/IpTNLP.hpp:228:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kvar_integer_md[m[K’ [-Wunused-parameter]
+                                    const IntegerMetaDataMapType& var_integer_md,
+[01;32m[K                                                                  ^[m[K
+[01m[K/usr/local/include/coin/IpTNLP.hpp:229:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kvar_numeric_md[m[K’ [-Wunused-parameter]
+                                    const NumericMetaDataMapType& var_numeric_md,
+[01;32m[K                                                                  ^[m[K
+[01m[K/usr/local/include/coin/IpTNLP.hpp:230:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Km[m[K’ [-Wunused-parameter]
+                                    Index m,
+[01;32m[K                                          ^[m[K
+[01m[K/usr/local/include/coin/IpTNLP.hpp:231:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcon_string_md[m[K’ [-Wunused-parameter]
+                                    const StringMetaDataMapType& con_string_md,
+[01;32m[K                                                                 ^[m[K
+[01m[K/usr/local/include/coin/IpTNLP.hpp:232:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcon_integer_md[m[K’ [-Wunused-parameter]
+                                    const IntegerMetaDataMapType& con_integer_md,
+[01;32m[K                                                                  ^[m[K
+[01m[K/usr/local/include/coin/IpTNLP.hpp:233:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcon_numeric_md[m[K’ [-Wunused-parameter]
+                                    const NumericMetaDataMapType& con_numeric_md)
+[01;32m[K                                                                  ^[m[K
+[01m[K/usr/local/include/coin/IpTNLP.hpp:240:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmode[m[K’ [-Wunused-parameter]
+     virtual bool intermediate_callback(AlgorithmMode mode,
+[01;32m[K                                                      ^[m[K
+[01m[K/usr/local/include/coin/IpTNLP.hpp:241:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kiter[m[K’ [-Wunused-parameter]
+                                        Index iter, Number obj_value,
+[01;32m[K                                              ^[m[K
+[01m[K/usr/local/include/coin/IpTNLP.hpp:241:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kobj_value[m[K’ [-Wunused-parameter]
+                                        Index iter, Number obj_value,
+[01;32m[K                                                           ^[m[K
+[01m[K/usr/local/include/coin/IpTNLP.hpp:242:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kinf_pr[m[K’ [-Wunused-parameter]
+                                        Number inf_pr, Number inf_du,
+[01;32m[K                                               ^[m[K
+[01m[K/usr/local/include/coin/IpTNLP.hpp:242:62:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kinf_du[m[K’ [-Wunused-parameter]
+                                        Number inf_pr, Number inf_du,
+[01;32m[K                                                              ^[m[K
+[01m[K/usr/local/include/coin/IpTNLP.hpp:243:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmu[m[K’ [-Wunused-parameter]
+                                        Number mu, Number d_norm,
+[01;32m[K                                               ^[m[K
+[01m[K/usr/local/include/coin/IpTNLP.hpp:243:58:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kd_norm[m[K’ [-Wunused-parameter]
+                                        Number mu, Number d_norm,
+[01;32m[K                                                          ^[m[K
+[01m[K/usr/local/include/coin/IpTNLP.hpp:244:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kregularization_size[m[K’ [-Wunused-parameter]
+                                        Number regularization_size,
+[01;32m[K                                               ^[m[K
+[01m[K/usr/local/include/coin/IpTNLP.hpp:245:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kalpha_du[m[K’ [-Wunused-parameter]
+                                        Number alpha_du, Number alpha_pr,
+[01;32m[K                                               ^[m[K
+[01m[K/usr/local/include/coin/IpTNLP.hpp:245:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kalpha_pr[m[K’ [-Wunused-parameter]
+                                        Number alpha_du, Number alpha_pr,
+[01;32m[K                                                                ^[m[K
+[01m[K/usr/local/include/coin/IpTNLP.hpp:246:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kls_trials[m[K’ [-Wunused-parameter]
+                                        Index ls_trials,
+[01;32m[K                                              ^[m[K
+[01m[K/usr/local/include/coin/IpTNLP.hpp:247:57:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kip_data[m[K’ [-Wunused-parameter]
+                                        const IpoptData* ip_data,
+[01;32m[K                                                         ^[m[K
+[01m[K/usr/local/include/coin/IpTNLP.hpp:248:67:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kip_cq[m[K’ [-Wunused-parameter]
+                                        IpoptCalculatedQuantities* ip_cq)
+[01;32m[K                                                                   ^[m[K
+[01m[K/usr/local/include/coin/IpTNLP.hpp:272:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knum_nonlin_vars[m[K’ [-Wunused-parameter]
+     virtual bool get_list_of_nonlinear_variables(Index num_nonlin_vars,
+[01;32m[K                                                        ^[m[K
+[01m[K/usr/local/include/coin/IpTNLP.hpp:273:16:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpos_nonlin_vars[m[K’ [-Wunused-parameter]
+         Index* pos_nonlin_vars)
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/local/include/coin/IpTaggedObject.hpp:15:0[m[K,
+                 from [01m[K/usr/local/include/coin/IpVector.hpp:13[m[K,
+                 from [01m[K/usr/local/include/coin/IpNLP.hpp:13[m[K,
+                 from [01m[K/usr/local/include/coin/IpIpoptApplication.hpp:28[m[K,
+                 from [01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/opt_solver/src/nlp_solver.cpp:2[m[K:
+[01m[K/usr/local/include/coin/IpObserver.hpp:309:53:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knotify_type[m[K’ [-Wunused-parameter]
+   void Subject::AttachObserver(Observer::NotifyType notify_type, Observer* observer) const
+[01;32m[K                                                     ^[m[K
+[01m[K/usr/local/include/coin/IpObserver.hpp:329:53:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knotify_type[m[K’ [-Wunused-parameter]
+   void Subject::DetachObserver(Observer::NotifyType notify_type, Observer* observer) const
+[01;32m[K                                                     ^[m[K
+In file included from [01m[K/usr/local/include/coin/IpIpoptApplication.hpp:28:0[m[K,
+                 from [01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/opt_solver/src/nlp_solver.cpp:2[m[K:
+[01m[K/usr/local/include/coin/IpNLP.hpp:56:52:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Koptions[m[K’ [-Wunused-parameter]
+     virtual bool ProcessOptions(const OptionsList& options,
+[01;32m[K                                                    ^[m[K
+[01m[K/usr/local/include/coin/IpNLP.hpp:57:52:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprefix[m[K’ [-Wunused-parameter]
+                                 const std::string& prefix)
+[01;32m[K                                                    ^[m[K
+[01m[K/usr/local/include/coin/IpNLP.hpp:109:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kwarm_start_iterate[m[K’ [-Wunused-parameter]
+     virtual bool GetWarmStartIterate(IteratesVector& warm_start_iterate)
+[01;32m[K                                                      ^[m[K
+[01m[K/usr/local/include/coin/IpNLP.hpp:145:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstatus[m[K’ [-Wunused-parameter]
+     virtual void FinalizeSolution(SolverReturn status,
+[01;32m[K                                                ^[m[K
+[01m[K/usr/local/include/coin/IpNLP.hpp:146:49:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [-Wunused-parameter]
+                                   const Vector& x, const Vector& z_L,
+[01;32m[K                                                 ^[m[K
+[01m[K/usr/local/include/coin/IpNLP.hpp:146:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kz_L[m[K’ [-Wunused-parameter]
+                                   const Vector& x, const Vector& z_L,
+[01;32m[K                                                                  ^[m[K
+[01m[K/usr/local/include/coin/IpNLP.hpp:147:49:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kz_U[m[K’ [-Wunused-parameter]
+                                   const Vector& z_U,
+[01;32m[K                                                 ^[m[K
+[01m[K/usr/local/include/coin/IpNLP.hpp:148:49:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kc[m[K’ [-Wunused-parameter]
+                                   const Vector& c, const Vector& d,
+[01;32m[K                                                 ^[m[K
+[01m[K/usr/local/include/coin/IpNLP.hpp:148:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kd[m[K’ [-Wunused-parameter]
+                                   const Vector& c, const Vector& d,
+[01;32m[K                                                                  ^[m[K
+[01m[K/usr/local/include/coin/IpNLP.hpp:149:49:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ky_c[m[K’ [-Wunused-parameter]
+                                   const Vector& y_c, const Vector& y_d,
+[01;32m[K                                                 ^[m[K
+[01m[K/usr/local/include/coin/IpNLP.hpp:149:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ky_d[m[K’ [-Wunused-parameter]
+                                   const Vector& y_c, const Vector& y_d,
+[01;32m[K                                                                    ^[m[K
+[01m[K/usr/local/include/coin/IpNLP.hpp:150:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kobj_value[m[K’ [-Wunused-parameter]
+                                   Number obj_value,
+[01;32m[K                                          ^[m[K
+[01m[K/usr/local/include/coin/IpNLP.hpp:151:52:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kip_data[m[K’ [-Wunused-parameter]
+                                   const IpoptData* ip_data,
+[01;32m[K                                                    ^[m[K
+[01m[K/usr/local/include/coin/IpNLP.hpp:152:62:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kip_cq[m[K’ [-Wunused-parameter]
+                                   IpoptCalculatedQuantities* ip_cq)
+[01;32m[K                                                              ^[m[K
+[01m[K/usr/local/include/coin/IpNLP.hpp:170:53:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmode[m[K’ [-Wunused-parameter]
+     virtual bool IntermediateCallBack(AlgorithmMode mode,
+[01;32m[K                                                     ^[m[K
+[01m[K/usr/local/include/coin/IpNLP.hpp:171:45:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kiter[m[K’ [-Wunused-parameter]
+                                       Index iter, Number obj_value,
+[01;32m[K                                             ^[m[K
+[01m[K/usr/local/include/coin/IpNLP.hpp:171:58:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kobj_value[m[K’ [-Wunused-parameter]
+                                       Index iter, Number obj_value,
+[01;32m[K                                                          ^[m[K
+[01m[K/usr/local/include/coin/IpNLP.hpp:172:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kinf_pr[m[K’ [-Wunused-parameter]
+                                       Number inf_pr, Number inf_du,
+[01;32m[K                                              ^[m[K
+[01m[K/usr/local/include/coin/IpNLP.hpp:172:61:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kinf_du[m[K’ [-Wunused-parameter]
+                                       Number inf_pr, Number inf_du,
+[01;32m[K                                                             ^[m[K
+[01m[K/usr/local/include/coin/IpNLP.hpp:173:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmu[m[K’ [-Wunused-parameter]
+                                       Number mu, Number d_norm,
+[01;32m[K                                              ^[m[K
+[01m[K/usr/local/include/coin/IpNLP.hpp:173:57:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kd_norm[m[K’ [-Wunused-parameter]
+                                       Number mu, Number d_norm,
+[01;32m[K                                                         ^[m[K
+[01m[K/usr/local/include/coin/IpNLP.hpp:174:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kregularization_size[m[K’ [-Wunused-parameter]
+                                       Number regularization_size,
+[01;32m[K                                              ^[m[K
+[01m[K/usr/local/include/coin/IpNLP.hpp:175:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kalpha_du[m[K’ [-Wunused-parameter]
+                                       Number alpha_du, Number alpha_pr,
+[01;32m[K                                              ^[m[K
+[01m[K/usr/local/include/coin/IpNLP.hpp:175:63:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kalpha_pr[m[K’ [-Wunused-parameter]
+                                       Number alpha_du, Number alpha_pr,
+[01;32m[K                                                               ^[m[K
+[01m[K/usr/local/include/coin/IpNLP.hpp:176:45:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kls_trials[m[K’ [-Wunused-parameter]
+                                       Index ls_trials,
+[01;32m[K                                             ^[m[K
+[01m[K/usr/local/include/coin/IpNLP.hpp:177:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kip_data[m[K’ [-Wunused-parameter]
+                                       const IpoptData* ip_data,
+[01;32m[K                                                        ^[m[K
+[01m[K/usr/local/include/coin/IpNLP.hpp:178:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kip_cq[m[K’ [-Wunused-parameter]
+                                       IpoptCalculatedQuantities* ip_cq)
+[01;32m[K                                                                  ^[m[K
+[01m[K/usr/local/include/coin/IpNLP.hpp:189:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx_space[m[K’ [-Wunused-parameter]
+       const SmartPtr<const VectorSpace> x_space,
+[01;32m[K                                         ^[m[K
+[01m[K/usr/local/include/coin/IpNLP.hpp:190:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kc_space[m[K’ [-Wunused-parameter]
+       const SmartPtr<const VectorSpace> c_space,
+[01;32m[K                                         ^[m[K
+[01m[K/usr/local/include/coin/IpNLP.hpp:191:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kd_space[m[K’ [-Wunused-parameter]
+       const SmartPtr<const VectorSpace> d_space,
+[01;32m[K                                         ^[m[K
+[01m[K/usr/local/include/coin/IpNLP.hpp:192:15:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kobj_scaling[m[K’ [-Wunused-parameter]
+       Number& obj_scaling,
+[01;32m[K               ^[m[K
+[01m[K/usr/local/include/coin/IpNLP.hpp:193:25:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx_scaling[m[K’ [-Wunused-parameter]
+       SmartPtr<Vector>& x_scaling,
+[01;32m[K                         ^[m[K
+[01m[K/usr/local/include/coin/IpNLP.hpp:194:25:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kc_scaling[m[K’ [-Wunused-parameter]
+       SmartPtr<Vector>& c_scaling,
+[01;32m[K                         ^[m[K
+[01m[K/usr/local/include/coin/IpNLP.hpp:195:25:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kd_scaling[m[K’ [-Wunused-parameter]
+       SmartPtr<Vector>& d_scaling) const
+[01;32m[K                         ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/opt_solver/src/nlp_solver.cpp:250:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstart[m[K’ [-Wunused-parameter]
+ bool NLPSolver::nloptSolve(const State &start, const State &end, double *param,
+[01;32m[K                                         ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/opt_solver/src/nlp_solver.cpp:250:61:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kend[m[K’ [-Wunused-parameter]
+ bool NLPSolver::nloptSolve(const State &start, const State &end, double *param,
+[01;32m[K                                                             ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/opt_solver/src/nlp_solver.cpp:250:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kparam[m[K’ [-Wunused-parameter]
+ bool NLPSolver::nloptSolve(const State &start, const State &end, double *param,
+[01;32m[K                                                                          ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/opt_solver/src/nlp_solver.cpp:251:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klower_bounds[m[K’ [-Wunused-parameter]
+                            const double *lower_bounds,
+[01;32m[K                                          ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/opt_solver/src/nlp_solver.cpp:252:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kupper_bounds[m[K’ [-Wunused-parameter]
+                            const double *upper_bounds, ParamKnot *solution) {
+[01;32m[K                                          ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/opt_solver/src/nlp_solver.cpp:252:67:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksolution[m[K’ [-Wunused-parameter]
+                            const double *upper_bounds, ParamKnot *solution) {
+[01;32m[K                                                                   ^[m[K
+In file included from [01m[K/usr/local/include/coin/IpVector.hpp:14:0[m[K,
+                 from [01m[K/usr/local/include/coin/IpNLP.hpp:13[m[K,
+                 from [01m[K/usr/local/include/coin/IpIpoptApplication.hpp:28[m[K,
+                 from [01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/opt_solver/src/nlp_solver.cpp:2[m[K:
+/usr/local/include/coin/IpCachedResults.hpp: In instantiation of ‘[01m[Kvoid Ipopt::DependentResult<T>::RecieveNotification(Ipopt::Observer::NotifyType, const Ipopt::Subject*) [with T = double][m[K’:
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/opt_solver/src/nlp_solver.cpp:305:1:[m[K   required from here
+[01m[K/usr/local/include/coin/IpCachedResults.hpp:405:87:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksubject[m[K’ [-Wunused-parameter]
+   void DependentResult<T>::RecieveNotification(NotifyType notify_type, const Subject* subject)
+[01;32m[K                                                                                       ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/opt_solver/src/nlp_solver.cpp:[m[K In member function ‘[01m[Kbool hmpl::NLPSolver::solve(const hmpl::State&, const hmpl::State&, double*, const double*, const double*, hmpl::ParamKnot*)[m[K’:
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/opt_solver/src/nlp_solver.cpp:46:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [-Wreturn-type]
+ }
+[01;32m[K ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/opt_solver/src/nlopt_problem.cpp:20:28:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdata[m[K’ [-Wunused-parameter]
+                      void *data) {
+[01;32m[K                            ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/opt_solver/src/jerk_constraints.cpp:[m[K In function ‘[01m[Kdouble hmpl::djdp1(hmpl::ParamKnot)[m[K’:
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/opt_solver/src/jerk_constraints.cpp:23:12:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kp0[m[K’ set but not used [-Wunused-but-set-variable]
+     double p0;
+[01;32m[K            ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/opt_solver/src/jerk_constraints.cpp:24:12:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kp1[m[K’ set but not used [-Wunused-but-set-variable]
+     double p1;
+[01;32m[K            ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/opt_solver/src/jerk_constraints.cpp:25:12:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kp2[m[K’ set but not used [-Wunused-but-set-variable]
+     double p2;
+[01;32m[K            ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/opt_solver/src/jerk_constraints.cpp:26:12:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kp3[m[K’ set but not used [-Wunused-but-set-variable]
+     double p3;
+[01;32m[K            ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/opt_solver/src/jerk_constraints.cpp:[m[K In function ‘[01m[Kdouble hmpl::djdp2(hmpl::ParamKnot)[m[K’:
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/opt_solver/src/jerk_constraints.cpp:39:12:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kp0[m[K’ set but not used [-Wunused-but-set-variable]
+     double p0;
+[01;32m[K            ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/opt_solver/src/jerk_constraints.cpp:40:12:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kp1[m[K’ set but not used [-Wunused-but-set-variable]
+     double p1;
+[01;32m[K            ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/opt_solver/src/jerk_constraints.cpp:41:12:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kp2[m[K’ set but not used [-Wunused-but-set-variable]
+     double p2;
+[01;32m[K            ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/opt_solver/src/jerk_constraints.cpp:42:12:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kp3[m[K’ set but not used [-Wunused-but-set-variable]
+     double p3;
+[01;32m[K            ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/opt_solver/src/jerk_constraints.cpp:[m[K In function ‘[01m[Kdouble hmpl::djd11(hmpl::ParamKnot)[m[K’:
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/opt_solver/src/jerk_constraints.cpp:71:12:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kp0[m[K’ set but not used [-Wunused-but-set-variable]
+     double p0;
+[01;32m[K            ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/opt_solver/src/jerk_constraints.cpp:72:12:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kp1[m[K’ set but not used [-Wunused-but-set-variable]
+     double p1;
+[01;32m[K            ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/opt_solver/src/jerk_constraints.cpp:73:12:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kp2[m[K’ set but not used [-Wunused-but-set-variable]
+     double p2;
+[01;32m[K            ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/opt_solver/src/jerk_constraints.cpp:74:12:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kp3[m[K’ set but not used [-Wunused-but-set-variable]
+     double p3;
+[01;32m[K            ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/opt_solver/src/jerk_constraints.cpp:75:12:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kp4[m[K’ set but not used [-Wunused-but-set-variable]
+     double p4;
+[01;32m[K            ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/opt_solver/src/jerk_constraints.cpp:[m[K In function ‘[01m[Kdouble hmpl::djd21(hmpl::ParamKnot)[m[K’:
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/opt_solver/src/jerk_constraints.cpp:87:12:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kp0[m[K’ set but not used [-Wunused-but-set-variable]
+     double p0;
+[01;32m[K            ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/opt_solver/src/jerk_constraints.cpp:88:12:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kp1[m[K’ set but not used [-Wunused-but-set-variable]
+     double p1;
+[01;32m[K            ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/opt_solver/src/jerk_constraints.cpp:89:12:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kp2[m[K’ set but not used [-Wunused-but-set-variable]
+     double p2;
+[01;32m[K            ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/opt_solver/src/jerk_constraints.cpp:90:12:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kp3[m[K’ set but not used [-Wunused-but-set-variable]
+     double p3;
+[01;32m[K            ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/opt_solver/src/jerk_constraints.cpp:91:12:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kp4[m[K’ set but not used [-Wunused-but-set-variable]
+     double p4;
+[01;32m[K            ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/opt_solver/src/jerk_constraints.cpp:[m[K In function ‘[01m[Kdouble hmpl::djd22(hmpl::ParamKnot)[m[K’:
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/opt_solver/src/jerk_constraints.cpp:103:12:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kp0[m[K’ set but not used [-Wunused-but-set-variable]
+     double p0;
+[01;32m[K            ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/opt_solver/src/jerk_constraints.cpp:104:12:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kp1[m[K’ set but not used [-Wunused-but-set-variable]
+     double p1;
+[01;32m[K            ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/opt_solver/src/jerk_constraints.cpp:105:12:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kp2[m[K’ set but not used [-Wunused-but-set-variable]
+     double p2;
+[01;32m[K            ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/opt_solver/src/jerk_constraints.cpp:106:12:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kp3[m[K’ set but not used [-Wunused-but-set-variable]
+     double p3;
+[01;32m[K            ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/opt_solver/src/jerk_constraints.cpp:107:12:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kp4[m[K’ set but not used [-Wunused-but-set-variable]
+     double p4;
+[01;32m[K            ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/opt_solver/src/jerk_constraints.cpp:[m[K In function ‘[01m[Kdouble hmpl::djd41(hmpl::ParamKnot)[m[K’:
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/opt_solver/src/jerk_constraints.cpp:119:12:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kp0[m[K’ set but not used [-Wunused-but-set-variable]
+     double p0;
+[01;32m[K            ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/opt_solver/src/jerk_constraints.cpp:120:12:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kp1[m[K’ set but not used [-Wunused-but-set-variable]
+     double p1;
+[01;32m[K            ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/opt_solver/src/jerk_constraints.cpp:121:12:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kp2[m[K’ set but not used [-Wunused-but-set-variable]
+     double p2;
+[01;32m[K            ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/opt_solver/src/jerk_constraints.cpp:122:12:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kp3[m[K’ set but not used [-Wunused-but-set-variable]
+     double p3;
+[01;32m[K            ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/opt_solver/src/jerk_constraints.cpp:[m[K In function ‘[01m[Kdouble hmpl::djd42(hmpl::ParamKnot)[m[K’:
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/opt_solver/src/jerk_constraints.cpp:135:12:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kp0[m[K’ set but not used [-Wunused-but-set-variable]
+     double p0;
+[01;32m[K            ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/opt_solver/src/jerk_constraints.cpp:136:12:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kp1[m[K’ set but not used [-Wunused-but-set-variable]
+     double p1;
+[01;32m[K            ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/opt_solver/src/jerk_constraints.cpp:137:12:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kp2[m[K’ set but not used [-Wunused-but-set-variable]
+     double p2;
+[01;32m[K            ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/opt_solver/src/jerk_constraints.cpp:138:12:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kp3[m[K’ set but not used [-Wunused-but-set-variable]
+     double p3;
+[01;32m[K            ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/opt_solver/src/jerk_constraints.cpp:[m[K At global scope:
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/opt_solver/src/jerk_constraints.cpp:183:25:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kparam[m[K’ [-Wunused-parameter]
+ double didp11(ParamKnot param) { return 0; }
+[01;32m[K                         ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/opt_solver/src/jerk_constraints.cpp:184:25:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kparam[m[K’ [-Wunused-parameter]
+ double didp21(ParamKnot param) { return 0; }
+[01;32m[K                         ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/opt_solver/src/jerk_constraints.cpp:185:25:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kparam[m[K’ [-Wunused-parameter]
+ double didp22(ParamKnot param) { return 0; }
+[01;32m[K                         ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/opt_solver/src/jerk_constraints.cpp:[m[K In function ‘[01m[Kdouble hmpl::didp44(hmpl::ParamKnot)[m[K’:
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/opt_solver/src/jerk_constraints.cpp:190:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kf[m[K’ [-Wunused-variable]
+     double f = -(11 * param.p0 - 18 * param.p1 + 9 * param.p2 - 2 * param.p3) /
+[01;32m[K            ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/opt_solver/src/jerk_constraints.cpp:192:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [-Wreturn-type]
+ }
+[01;32m[K ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/opt_solver/src/path_generator.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/opt_solver/src/path_generator.cpp:50:19:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Ktime[m[K’ set but not used [-Wunused-but-set-variable]
+         ros::Time time = ros::Time::now();
+[01;32m[K                   ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/opt_solver/src/path_generator.cpp:44:12:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Klast_initial_guess[m[K’ set but not used [-Wunused-but-set-variable]
+     double last_initial_guess[3] = {};
+[01;32m[K            ^[m[K

@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: constrained_speed
+Description: Description of constrained_speed
+Version: 0.0.0
+Cflags: -I/usr/local/include
+Libs: -L/usr/local/lib 
+Requires: roscpp plan2control_msgs speed_debug_msgs lanelet_map_msgs control_msgs movobsplan_msgs dbw_mkz_msgs anm_msgs

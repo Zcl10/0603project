@@ -1,0 +1,40 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~shared_colors" : \b [int] start_marker_color min: -2147483648, default: 10, max: 2147483647
+- \b "~start_marker_size" : \b [double] Start Marker Size min: 0.5, default: 1.0, max: 4.0
+- \b "~start_marker_frame" : \b [str] Marker Frame min: , default: /map, max: 
+- \b "~start_marker_alpha" : \b [double] Start Marker alpha min: 0.0, default: 1.0, max: 1.0
+- \b "~start_marker_color" : \b [int] Start Marker alpha min: -2147483648, default: 7, max: 2147483647
+- \b "~goal_marker_size" : \b [double] Goal Marker Size min: 0.5, default: 1.0, max: 4.0
+- \b "~goal_marker_frame" : \b [str] Marker Frame min: , default: /map, max: 
+- \b "~goal_marker_alpha" : \b [double] Goal Marker alpha min: 0.0, default: 1.0, max: 1.0
+- \b "~goal_marker_color" : \b [int] Goal Marker alpha min: -2147483648, default: 9, max: 2147483647
+- \b "~circle_marker_size" : \b [double] Circle Marker Size min: 0.05, default: 0.1, max: 0.3
+- \b "~circle_marker_frame" : \b [str] Marker Frame min: , default: /map, max: 
+- \b "~circle_marker_alpha" : \b [double] Circle Marker alpha min: 0.0, default: 1.0, max: 1.0
+- \b "~circle_marker_color" : \b [int] Circle Marker alpha min: -2147483648, default: 8, max: 2147483647
+- \b "~enable_internal_path_display" : \b [bool] Enable internal path display min: False, default: False, max: True
+- \b "~inter_path_width" : \b [double] Path Width min: 0.05, default: 0.08, max: 0.3
+- \b "~inter_path_marker_frame" : \b [str] Path Marker Frame min: , default: /map, max: 
+- \b "~inter_path_marker_alpha" : \b [double] Path Marker alpha min: 0.0, default: 1.0, max: 1.0
+- \b "~inter_path_marker_color" : \b [int] Path Marker alpha min: -2147483648, default: 0, max: 2147483647
+- \b "~path_node_size" : \b [double] Path Node Size min: 0.05, default: 0.2, max: 0.5
+- \b "~path_node_frame" : \b [str] Path Node Marker Frame min: , default: /map, max: 
+- \b "~path_node_alpha" : \b [double] Path Node Marker alpha min: 0.0, default: 1.0, max: 1.0
+- \b "~path_node_color" : \b [int] Path Node Marker alpha min: -2147483648, default: 10, max: 2147483647
+- \b "~circle_path_width" : \b [double] Path Width min: 0.01, default: 0.1, max: 0.3
+- \b "~circle_path_frame" : \b [str] Circle Path Frame min: , default: /map, max: 
+- \b "~circle_path_alpha" : \b [double] Circle Path Alpha min: 0.0, default: 1.0, max: 1.0
+- \b "~circle_path_color" : \b [int] Path Node Color min: -2147483648, default: 10, max: 2147483647
+- \b "~circle_path_node_size" : \b [double] Circle Path Node Size min: 0.05, default: 0.3, max: 0.5
+- \b "~circle_path_node_frame" : \b [str] Circle Path Node Marker Frame min: , default: /map, max: 
+- \b "~circle_path_node_alpha" : \b [double] Circle Path Node Marker alpha min: 0.0, default: 1.0, max: 1.0
+- \b "~circle_path_node_color" : \b [int] Circle Path Node Marker alpha min: -2147483648, default: 0, max: 2147483647
+- \b "~enable_final_path_display" : \b [bool] Enable final path display min: False, default: False, max: True
+- \b "~final_path_width" : \b [double] Path Width min: 0.01, default: 0.15, max: 0.3
+- \b "~final_path_frame" : \b [str] final Path Frame min: , default: /map, max: 
+- \b "~final_path_alpha" : \b [double] Circle Path Alpha min: 0.0, default: 1.0, max: 1.0
+- \b "~final_path_color" : \b [int] Final Path Color min: -2147483648, default: 9, max: 2147483647
+

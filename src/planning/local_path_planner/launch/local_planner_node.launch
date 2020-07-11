@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+    <node pkg="local_path_planner" type="local_planner_node" name="global_path" args="" output="screen">
+        <rosparam command="load" file="$(find map_server)/config/common_config.yaml"/>
+    </node>
+    <node name="rviz" pkg="rviz" type="rviz" args="-d $(find local_path_planner)/rviz/local_path_planner_viz.rviz" output="screen"/>
+</launch>

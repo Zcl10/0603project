@@ -1,0 +1,1 @@
+/home/bit2/0603_project/tang_ws/devel/.private/control_msgs/share/roseus/ros/control_msgs/msg/ReportThrottle.l

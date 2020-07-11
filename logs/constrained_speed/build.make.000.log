@@ -1,0 +1,17 @@
+[35m[1mScanning dependencies of target constrained_speed_genparam[0m
+[35m[1mScanning dependencies of target constrained_speed_gencfg[0m
+[ 33%] [34m[1mGenerating parameter files from cs_method2[0m
+[ 33%] [34m[1mGenerating parameter files from cs_method2[0m
+catkin_generated/env_cached.sh: 16: exec: /home/bit2/0603_project/tang_ws/src/control/constrained_speed/cfg/cs_method2.params: Permission denied
+catkin_generated/env_cached.sh: 16: exec: /home/bit2/0603_project/tang_ws/src/control/constrained_speed/cfg/cs_method2.params: Permission denied
+make[2]: *** [/home/bit2/0603_project/tang_ws/devel/.private/constrained_speed/include/constrained_speed/cs_method2Parameters.h] Error 126
+CMakeFiles/constrained_speed_genparam.dir/build.make:64: recipe for target '/home/bit2/0603_project/tang_ws/devel/.private/constrained_speed/include/constrained_speed/cs_method2Parameters.h' failed
+CMakeFiles/constrained_speed_gencfg.dir/build.make:81: recipe for target '/home/bit2/0603_project/tang_ws/devel/.private/constrained_speed/include/constrained_speed/cs_method2Parameters.h' failed
+CMakeFiles/Makefile2:1546: recipe for target 'CMakeFiles/constrained_speed_genparam.dir/all' failed
+make[2]: *** [/home/bit2/0603_project/tang_ws/devel/.private/constrained_speed/include/constrained_speed/cs_method2Parameters.h] Error 126
+make[1]: *** [CMakeFiles/constrained_speed_genparam.dir/all] Error 2
+CMakeFiles/Makefile2:2511: recipe for target 'CMakeFiles/constrained_speed_gencfg.dir/all' failed
+make[1]: *** 正在等待未完成的任务....
+make[1]: *** [CMakeFiles/constrained_speed_gencfg.dir/all] Error 2
+Makefile:138: recipe for target 'all' failed
+make: *** [all] Error 2

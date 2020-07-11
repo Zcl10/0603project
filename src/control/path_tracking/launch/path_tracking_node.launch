@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+  <arg name="config" default="$(find path_tracking)/config/config.yaml" />
+
+  <node pkg="path_tracking" type="path_tracking_node" name="path_tracking_node" output="screen">
+    <rosparam command="load" file="$(arg config)"/>
+  </node>
+  <!--node name="rviz" pkg="rviz" type="rviz" args="-d $(find path_tracking)/config/path_tracking.rviz"/-->
+  <!--node pkg="rqt_reconfigure" type="rqt_reconfigure" name="rqt_reconfigure" output="screen"/-->
+</launch>

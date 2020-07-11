@@ -1,0 +1,8 @@
+prefix=/home/bit2/0603_project/tang_ws/install
+
+Name: chassis_testing
+Description: Description of chassis_testing
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lchassis_testing
+Requires: roscpp rospy std_msgs dynamic_reconfigure

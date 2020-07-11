@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: manual_gui
+Description: Description of manual_gui
+Version: 0.0.1
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target car_model[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/car_model.dir/src/car_geometry.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library /home/bit2/0603_project/tang_ws/devel/.private/car_model/lib/libcar_model.so[0m
+[100%] Built target car_model

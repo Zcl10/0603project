@@ -1,0 +1,38 @@
+[  7%] [34m[1mGenerating include/moc_PubMsg.cxx[0m
+[  7%] [34m[1mGenerating include/moc_stlastar.cxx[0m
+[ 11%] [34m[1mGenerating include/moc_AttachXmlFile.cxx[0m
+[ 18%] [34m[1mGenerating include/moc_astardoublexml.cxx[0m
+[ 18%] [34m[1mGenerating include/moc_MapSearchNode.cxx[0m
+[ 22%] [34m[1mGenerating include/moc_thread.cxx[0m
+[ 25%] [34m[1mGenerating include/moc_MapMatch.cxx[0m
+[ 29%] [34m[1mGenerating include/moc_ui_astardoublexml.cxx[0m
+/home/bit2/0603_project/tang_ws/src/planning/a_star_double_xml/include/stlastar.h:0: Note: No relevant classes found. No output generated.
+/home/bit2/0603_project/tang_ws/src/planning/a_star_double_xml/include/MapSearchNode.h:0: Note: No relevant classes found. No output generated.
+/home/bit2/0603_project/tang_ws/src/planning/a_star_double_xml/include/MapMatch.h:0: Note: No relevant classes found. No output generated.
+[ 33%] [34m[1mGenerating include/moc_fsa.cxx[0m
+/home/bit2/0603_project/tang_ws/src/planning/a_star_double_xml/include/fsa.h:0: Note: No relevant classes found. No output generated.
+/home/bit2/0603_project/tang_ws/src/planning/a_star_double_xml/include/ui_astardoublexml.h:0: Note: No relevant classes found. No output generated.
+/home/bit2/0603_project/tang_ws/src/planning/a_star_double_xml/include/AttachXmlFile.h:0: Note: No relevant classes found. No output generated.
+[35m[1mScanning dependencies of target a_star_double_xml[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/a_star_double_xml.dir/src/PubMsg.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/a_star_double_xml.dir/src/main.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/a_star_double_xml.dir/src/thread.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/a_star_double_xml.dir/src/MapMatch.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/a_star_double_xml.dir/src/astardoublexml.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/a_star_double_xml.dir/src/MapSearchNode.cpp.o[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/a_star_double_xml.dir/src/AttachXmlFile.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/a_star_double_xml.dir/include/moc_stlastar.cxx.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/a_star_double_xml.dir/include/moc_PubMsg.cxx.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/a_star_double_xml.dir/include/moc_astardoublexml.cxx.o[0m
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/a_star_double_xml/src/AttachXmlFile.cpp:[m[K In member function ‘[01m[Kvoid AttachXmlFile::bsplineInterpolate(const Way&, lanelet_map_msgs::Way*)[m[K’:
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/a_star_double_xml/src/AttachXmlFile.cpp:5046:49:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Klong unsigned int[m[K’ [-Wformat=]
+     printf("Debug: sample num %d\n", length_size);
+[01;32m[K                                                 ^[m[K
+[ 74%] [32mBuilding CXX object CMakeFiles/a_star_double_xml.dir/include/moc_MapSearchNode.cxx.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/a_star_double_xml.dir/include/moc_AttachXmlFile.cxx.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/a_star_double_xml.dir/include/moc_MapMatch.cxx.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/a_star_double_xml.dir/include/moc_ui_astardoublexml.cxx.o[0m
+[ 88%] [32mBuilding CXX object CMakeFiles/a_star_double_xml.dir/include/moc_fsa.cxx.o[0m
+[ 92%] [32mBuilding CXX object CMakeFiles/a_star_double_xml.dir/include/moc_thread.cxx.o[0m
+[ 96%] [32m[1mLinking CXX executable /home/bit2/0603_project/tang_ws/devel/.private/a_star_double_xml/lib/a_star_double_xml/a_star_double_xml[0m
+[100%] Built target a_star_double_xml

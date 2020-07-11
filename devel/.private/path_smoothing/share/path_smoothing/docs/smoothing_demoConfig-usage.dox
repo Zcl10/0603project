@@ -1,0 +1,14 @@
+\subsubsection usage Usage
+\verbatim
+<node name="path_smoothing_demo_node" pkg="path_smoothing" type="path_smoothing_demo_node">
+  <param name="cg_heading_term_coe" type="double" value="1.0" />
+  <param name="cg_curvature_term_coe" type="double" value="0.0" />
+  <param name="cg_obstacle_term_coe" type="double" value="2.0" />
+  <param name="gp_obs_sigma" type="double" value="0.03" />
+  <param name="gp_vehicle_dynamic_sigma" type="double" value="0.02" />
+  <param name="gp_dt" type="double" value="0.4" />
+  <param name="distance_threshold" type="double" value="2.5" />
+  <param name="cg_solver_type" type="int" value="1" />
+</node>
+\endverbatim
+

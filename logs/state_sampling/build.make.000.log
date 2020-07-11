@@ -1,0 +1,14 @@
+[35m[1mScanning dependencies of target state_sampling[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/state_sampling.dir/src/puresuit_method.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/state_sampling.dir/src/state_sampling.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/state_sampling.dir/src/collision_checker.cpp.o[0m
+[ 50%] [32m[1mLinking CXX shared library /home/bit2/0603_project/tang_ws/devel/.private/state_sampling/lib/libstate_sampling.so[0m
+[ 50%] Built target state_sampling
+[35m[1mScanning dependencies of target state_sampling_demo[0m
+[35m[1mScanning dependencies of target pursuit_sampling_demo[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/state_sampling_demo.dir/demo/state_sampling_demo.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/pursuit_sampling_demo.dir/demo/puresuit_sampling_demo.cpp.o[0m
+[ 87%] [32m[1mLinking CXX executable /home/bit2/0603_project/tang_ws/devel/.private/state_sampling/lib/state_sampling/pursuit_sampling_demo[0m
+[100%] [32m[1mLinking CXX executable /home/bit2/0603_project/tang_ws/devel/.private/state_sampling/lib/state_sampling/state_sampling_demo[0m
+[100%] Built target pursuit_sampling_demo
+[100%] Built target state_sampling_demo

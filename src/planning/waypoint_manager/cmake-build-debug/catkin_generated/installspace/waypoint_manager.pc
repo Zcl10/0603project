@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: waypoint_manager
+Description: Description of waypoint_manager
+Version: 0.0.0
+Cflags: -I/usr/local/include
+Libs: -L/usr/local/lib 
+Requires: roscpp sensor_driver_msgs lanelet_map_msgs nav_msgs opt_utils anm_msgs roslib transform_tools tinyspline_ros

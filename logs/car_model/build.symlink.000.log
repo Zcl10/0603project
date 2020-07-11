@@ -1,0 +1,4 @@
+Symlinking /home/bit2/0603_project/tang_ws/devel/lib/libcar_model.so
+Symlinking /home/bit2/0603_project/tang_ws/devel/lib/pkgconfig/car_model.pc
+Symlinking /home/bit2/0603_project/tang_ws/devel/share/car_model/cmake/car_modelConfig-version.cmake
+Symlinking /home/bit2/0603_project/tang_ws/devel/share/car_model/cmake/car_modelConfig.cmake

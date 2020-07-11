@@ -1,0 +1,8 @@
+prefix=/home/bit2/0603_project/tang_ws/install
+
+Name: guidance_point
+Description: Description of guidance_point
+Version: 0.0.0
+Cflags: -I${prefix}/include -I/usr/include
+Libs: -L${prefix}/lib -lguidance_point_lib
+Requires: roscpp roslib gps_utils nav_msgs unique_id opt_utils anm_msgs lanelet_map_msgs sensor_driver_msgs internal_grid_map plan2control_msgs control_msgs transform_tools

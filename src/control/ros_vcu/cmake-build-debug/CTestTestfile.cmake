@@ -1,0 +1,7 @@
+# CMake generated Testfile for 
+# Source directory: /home/zcl/Desktop/0603_projectTang/tang_ws/src/control/ros_vcu
+# Build directory: /home/zcl/Desktop/0603_projectTang/tang_ws/src/control/ros_vcu/cmake-build-debug
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+subdirs("gtest")

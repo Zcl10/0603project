@@ -1,0 +1,4 @@
+Symlinking /home/bit2/0603_project/tang_ws/devel/lib/libguidance_point_lib.so
+Symlinking /home/bit2/0603_project/tang_ws/devel/lib/pkgconfig/guidance_point.pc
+Symlinking /home/bit2/0603_project/tang_ws/devel/share/guidance_point/cmake/guidance_pointConfig-version.cmake
+Symlinking /home/bit2/0603_project/tang_ws/devel/share/guidance_point/cmake/guidance_pointConfig.cmake

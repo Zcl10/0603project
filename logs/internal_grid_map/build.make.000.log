@@ -1,0 +1,20 @@
+[35m[1mScanning dependencies of target internal_grid_map[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/internal_grid_map.dir/src/internal_grid_map.cpp.o[0m
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/internal_grid_map/src/internal_grid_map.cpp:[m[K In member function ‘[01m[Kbool hmpl::InternalGridMap::init(std::__cxx11::string, const Length&, double, const Position&)[m[K’:
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/internal_grid_map/src/internal_grid_map.cpp:30:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [-Wreturn-type]
+ }
+[01;32m[K ^[m[K
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/internal_grid_map/src/internal_grid_map.cpp:[m[K In member function ‘[01m[Kbool hmpl::InternalGridMap::updateDistanceLayerCV()[m[K’:
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/dependent_package/internal_grid_map/src/internal_grid_map.cpp:64:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [-Wreturn-type]
+ }
+[01;32m[K ^[m[K
+[ 33%] [32m[1mLinking CXX shared library /home/bit2/0603_project/tang_ws/devel/.private/internal_grid_map/lib/libinternal_grid_map.so[0m
+[ 33%] Built target internal_grid_map
+[35m[1mScanning dependencies of target submap_node[0m
+[35m[1mScanning dependencies of target grid_map_demo[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/submap_node.dir/src/submap_node.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/grid_map_demo.dir/src/main.cpp.o[0m
+[ 83%] [32m[1mLinking CXX executable /home/bit2/0603_project/tang_ws/devel/.private/internal_grid_map/lib/internal_grid_map/submap_node[0m
+[100%] [32m[1mLinking CXX executable /home/bit2/0603_project/tang_ws/devel/.private/internal_grid_map/lib/internal_grid_map/grid_map_demo[0m
+[100%] Built target submap_node
+[100%] Built target grid_map_demo

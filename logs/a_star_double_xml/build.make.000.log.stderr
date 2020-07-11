@@ -1,0 +1,43 @@
+/home/bit2/0603_project/tang_ws/src/planning/a_star_double_xml/include/stlastar.h:0: Note: No relevant classes found. No output generated.
+/home/bit2/0603_project/tang_ws/src/planning/a_star_double_xml/include/MapSearchNode.h:0: Note: No relevant classes found. No output generated.
+/home/bit2/0603_project/tang_ws/src/planning/a_star_double_xml/include/MapMatch.h:0: Note: No relevant classes found. No output generated.
+/home/bit2/0603_project/tang_ws/src/planning/a_star_double_xml/include/fsa.h:0: Note: No relevant classes found. No output generated.
+/home/bit2/0603_project/tang_ws/src/planning/a_star_double_xml/include/ui_astardoublexml.h:0: Note: No relevant classes found. No output generated.
+/home/bit2/0603_project/tang_ws/src/planning/a_star_double_xml/include/AttachXmlFile.h:0: Note: No relevant classes found. No output generated.
+In file included from [01m[K/home/bit2/0603_project/tang_ws/src/planning/a_star_double_xml/src/PubMsg.cpp:1:0[m[K:
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/a_star_double_xml/include/PubMsg.h:23:51:[m[K [01;31m[Kfatal error: [m[Kvertical_wall_grid/vertical_wall_grid.h: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [CMakeFiles/a_star_double_xml.dir/src/PubMsg.cpp.o] Error 1
+make[2]: *** 正在等待未完成的任务....
+In file included from [01m[K/home/bit2/0603_project/tang_ws/build/a_star_double_xml/include/moc_PubMsg.cxx:9:0[m[K:
+[01m[K/home/bit2/0603_project/tang_ws/build/a_star_double_xml/include/../../../src/planning/a_star_double_xml/include/PubMsg.h:23:51:[m[K [01;31m[Kfatal error: [m[Kvertical_wall_grid/vertical_wall_grid.h: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [CMakeFiles/a_star_double_xml.dir/include/moc_PubMsg.cxx.o] Error 1
+In file included from [01m[K/home/bit2/0603_project/tang_ws/src/planning/a_star_double_xml/src/../include/astardoublexml.h:12:0[m[K,
+                 from [01m[K/home/bit2/0603_project/tang_ws/src/planning/a_star_double_xml/src/../include/thread.h:9[m[K,
+                 from [01m[K/home/bit2/0603_project/tang_ws/src/planning/a_star_double_xml/src/thread.cpp:5[m[K:
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/a_star_double_xml/src/../include/PubMsg.h:23:51:[m[K [01;31m[Kfatal error: [m[Kvertical_wall_grid/vertical_wall_grid.h: 没有那个文件或目录
+compilation terminated.
+In file included from [01m[K/home/bit2/0603_project/tang_ws/src/planning/a_star_double_xml/include/astardoublexml.h:12:0[m[K,
+                 from [01m[K/home/bit2/0603_project/tang_ws/src/planning/a_star_double_xml/src/astardoublexml.cpp:1[m[K:
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/a_star_double_xml/include/PubMsg.h:23:51:[m[K [01;31m[Kfatal error: [m[Kvertical_wall_grid/vertical_wall_grid.h: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [CMakeFiles/a_star_double_xml.dir/src/thread.cpp.o] Error 1
+make[2]: *** [CMakeFiles/a_star_double_xml.dir/src/astardoublexml.cpp.o] Error 1
+In file included from [01m[K/home/bit2/0603_project/tang_ws/src/planning/a_star_double_xml/include/astardoublexml.h:12:0[m[K,
+                 from [01m[K/home/bit2/0603_project/tang_ws/src/planning/a_star_double_xml/src/AttachXmlFile.cpp:9[m[K:
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/a_star_double_xml/include/PubMsg.h:23:51:[m[K [01;31m[Kfatal error: [m[Kvertical_wall_grid/vertical_wall_grid.h: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [CMakeFiles/a_star_double_xml.dir/src/AttachXmlFile.cpp.o] Error 1
+In file included from [01m[K/home/bit2/0603_project/tang_ws/src/planning/a_star_double_xml/src/../include/astardoublexml.h:12:0[m[K,
+                 from [01m[K/home/bit2/0603_project/tang_ws/src/planning/a_star_double_xml/src/main.cpp:1[m[K:
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/a_star_double_xml/src/../include/PubMsg.h:23:51:[m[K [01;31m[Kfatal error: [m[Kvertical_wall_grid/vertical_wall_grid.h: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [CMakeFiles/a_star_double_xml.dir/src/main.cpp.o] Error 1
+In file included from [01m[K/home/bit2/0603_project/tang_ws/build/a_star_double_xml/include/../../../src/planning/a_star_double_xml/include/astardoublexml.h:12:0[m[K,
+                 from [01m[K/home/bit2/0603_project/tang_ws/build/a_star_double_xml/include/moc_astardoublexml.cxx:9[m[K:
+[01m[K/home/bit2/0603_project/tang_ws/build/a_star_double_xml/include/../../../src/planning/a_star_double_xml/include/PubMsg.h:23:51:[m[K [01;31m[Kfatal error: [m[Kvertical_wall_grid/vertical_wall_grid.h: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [CMakeFiles/a_star_double_xml.dir/include/moc_astardoublexml.cxx.o] Error 1
+make[1]: *** [CMakeFiles/a_star_double_xml.dir/all] Error 2
+make: *** [all] Error 2

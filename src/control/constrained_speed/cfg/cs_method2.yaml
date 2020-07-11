@@ -1,0 +1,7 @@
+vrep_sim: false
+v_max:    3.0
+jerk:     30
+acc_lat_max:  4.0
+acc_lon_max:  1.5
+dec_lon_max:  -1.6
+safe_dec:     -1.6

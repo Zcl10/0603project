@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: path_tracking
+Description: Description of path_tracking
+Version: 0.0.1
+Cflags: -I/usr/local/include
+Libs: -L/usr/local/lib 
+Requires: message_generation roscpp rospy roslib std_msgs anm_msgs nav_msgs dbw_mkz_msgs sensor_msgs sensor_driver_msgs plan2control_msgs control_msgs

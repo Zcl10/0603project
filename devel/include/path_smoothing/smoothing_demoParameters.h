@@ -1,0 +1,1 @@
+/home/bit2/0603_project/tang_ws/devel/.private/path_smoothing/include/path_smoothing/smoothing_demoParameters.h

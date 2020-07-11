@@ -1,0 +1,1 @@
+/home/bit2/0603_project/tang_ws/devel/.private/movobsplan_msgs/share/movobsplan_msgs/cmake/movobsplan_msgs-msg-paths.cmake

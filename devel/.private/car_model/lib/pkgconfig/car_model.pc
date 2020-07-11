@@ -1,0 +1,8 @@
+prefix=/home/bit2/0603_project/tang_ws/devel/.private/car_model
+
+Name: car_model
+Description: Description of car_model
+Version: 0.0.1
+Cflags: -I/home/bit2/0603_project/tang_ws/src/planning/dependent_package/car_model/include
+Libs: -L${prefix}/lib -lcar_model
+Requires: opt_utils roscpp

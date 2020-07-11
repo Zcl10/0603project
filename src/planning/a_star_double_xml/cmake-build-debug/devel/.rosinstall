@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/eagle/CW/hr/cw_project/ivrc_ws/src/planning/a_star_double_xml/cmake-build-debug/devel/setup.sh

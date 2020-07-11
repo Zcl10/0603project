@@ -1,0 +1,4 @@
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/waypoint_manager/src/route_publisher_node.cpp:[m[K In member function ‘[01m[Kvoid RoutePublisher::InterpolationBspline(const Way&)[m[K’:
+[01m[K/home/bit2/0603_project/tang_ws/src/planning/waypoint_manager/src/route_publisher_node.cpp:132:22:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 3 has type ‘[01m[Kstd::size_t {aka long unsigned int}[m[K’ [-Wformat=]
+            sample_num);
+[01;32m[K                      ^[m[K

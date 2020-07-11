@@ -1,0 +1,9 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~gear" : \b [int] Gear min: 1, default: 0, max: 4
+- \b "~target_torque" : \b [double] Target torque min: 0.0, default: 0.0, max: 1800.0
+- \b "~halt" : \b [double] brake min: 0.0, default: 0.0, max: 20.0
+- \b "~steer_degree" : \b [int] Steer degree min: -20, default: 0, max: 20
+

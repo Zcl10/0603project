@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="state_sampling" type="state_sampling_demo" name="state_sampling_demo" args="" output="screen" />
+    
+    <node name="rviz" pkg="rviz" type="rviz" args="-d $(find state_sampling)/cfg/state_sampling_viz.rviz" output="screen" />
+</launch>

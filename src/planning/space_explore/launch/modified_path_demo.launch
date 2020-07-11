@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<launch>
+    <node pkg="space_explore" type="modified_path_node" name="global_path" args="" output="screen" />
+    <node name="rviz" pkg="rviz" type="rviz" args="-d $(find space_explore)/cfg/modified_path_demo_viz.rviz" output="screen" />
+</launch>

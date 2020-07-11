@@ -1,0 +1,8 @@
+prefix=/home/zcl/Desktop/0603_projectTang/tang_ws/src/control/manual_gui/cmake-build-debug/devel
+
+Name: manual_gui
+Description: Description of manual_gui
+Version: 0.0.1
+Cflags: -I/home/zcl/Desktop/0603_projectTang/tang_ws/src/control/manual_gui/cmake-build-debug/devel/include
+Libs: -L${prefix}/lib 
+Requires: 

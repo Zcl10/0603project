@@ -1,0 +1,1 @@
+/home/bit2/0603_project/tang_ws/devel/.private/stiff_msgs/share/roseus/ros/stiff_msgs/manifest.l

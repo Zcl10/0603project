@@ -1,0 +1,8 @@
+prefix=/home/bit2/0603_project/tang_ws/devel/.private/ecu_communication
+
+Name: ecu_communication
+Description: Description of ecu_communication
+Version: 0.0.0
+Cflags: -I/home/bit2/0603_project/tang_ws/devel/.private/ecu_communication/include -I/home/bit2/0603_project/tang_ws/src/control/ecu_communication/include
+Libs: -L${prefix}/lib 
+Requires: roscpp control_msgs sensor_driver_msgs

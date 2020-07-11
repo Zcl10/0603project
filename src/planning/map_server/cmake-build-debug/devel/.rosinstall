@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/yao/ivrc/cw_project/ivrc_ws/src/planning/map_server/cmake-build-debug/devel/setup.sh

@@ -1,0 +1,10 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~rate" : \b [int] Rate for timer min: 10, default: 20, max: 50
+- \b "~auto_mode" : \b [bool] Rate for timer min: False, default: False, max: True
+- \b "~longitude_enable" : \b [bool] longitude enable min: False, default: False, max: True
+- \b "~torque_enable" : \b [bool] torque_enable min: False, default: False, max: True
+- \b "~rainy_mode" : \b [bool] turn on wiper min: False, default: False, max: True
+

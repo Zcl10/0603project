@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+  <node pkg="waypoint_manager" type="route_publisher" name="route_publisher_node" output="log">
+        <rosparam command="load" file="$(find map_server)/config/common_config.yaml"/>
+  </node>
+  <node pkg="local_path_planner" type="local_planner_node" name="global_path" args="" output="log">
+        <rosparam command="load" file="$(find map_server)/config/common_config.yaml"/>
+  </node>
+
+  <node pkg="constrained_speed" type="constrained_speed" name="constrained_speed" output="log">
+        <rosparam command="load" file="$(find constrained_speed)/cfg/cs_method2.yaml"/>
+        <rosparam command="load" file="$(find map_server)/config/common_config.yaml"/>
+  </node>
+
+  <arg name="config" default="$(find path_tracking)/config/config.yaml" />
+  <node pkg="path_tracking" type="path_tracking_node" name="path_tracking_node" output="log">
+    <rosparam command="load" file="$(arg config)"/>
+  </node>
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find path_tracking)/config/path_tracking.rviz"/>
+</launch>

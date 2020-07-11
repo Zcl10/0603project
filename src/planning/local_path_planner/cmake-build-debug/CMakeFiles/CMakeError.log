@@ -1,0 +1,55 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/yao/0603_project/tang_ws/src/planning/local_path_planner/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2edde/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2edde.dir/build.make CMakeFiles/cmTC_2edde.dir/build
+make[1]: Entering directory '/home/yao/0603_project/tang_ws/src/planning/local_path_planner/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2edde.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_2edde.dir/CheckSymbolExists.c.o   -c /home/yao/0603_project/tang_ws/src/planning/local_path_planner/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_2edde
+/home/yao/software/clion-2017.3.4/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2edde.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_2edde.dir/CheckSymbolExists.c.o  -o cmTC_2edde 
+CMakeFiles/cmTC_2edde.dir/CheckSymbolExists.c.o：在函数‘main’中：
+CheckSymbolExists.c:(.text+0x16)：对‘pthread_create’未定义的引用
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_2edde.dir/build.make:97: recipe for target 'cmTC_2edde' failed
+make[1]: *** [cmTC_2edde] Error 1
+make[1]: Leaving directory '/home/yao/0603_project/tang_ws/src/planning/local_path_planner/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_2edde/fast' failed
+make: *** [cmTC_2edde/fast] Error 2
+
+File /home/yao/0603_project/tang_ws/src/planning/local_path_planner/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/yao/0603_project/tang_ws/src/planning/local_path_planner/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d285e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d285e.dir/build.make CMakeFiles/cmTC_d285e.dir/build
+make[1]: Entering directory '/home/yao/0603_project/tang_ws/src/planning/local_path_planner/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d285e.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_d285e.dir/CheckFunctionExists.c.o   -c /home/yao/software/clion-2017.3.4/bin/cmake/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d285e
+/home/yao/software/clion-2017.3.4/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d285e.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_d285e.dir/CheckFunctionExists.c.o  -o cmTC_d285e -lpthreads 
+/usr/bin/ld: 找不到 -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_d285e.dir/build.make:97: recipe for target 'cmTC_d285e' failed
+make[1]: *** [cmTC_d285e] Error 1
+make[1]: Leaving directory '/home/yao/0603_project/tang_ws/src/planning/local_path_planner/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_d285e/fast' failed
+make: *** [cmTC_d285e/fast] Error 2
+
+

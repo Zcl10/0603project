@@ -1,0 +1,8 @@
+prefix=/home/bit2/0603_project/tang_ws/install
+
+Name: gps_utils
+Description: Description of gps_utils
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lgps_utils
+Requires: roscpp sensor_msgs geometry_msgs

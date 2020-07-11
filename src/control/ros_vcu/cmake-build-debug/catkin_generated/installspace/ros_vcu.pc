@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: ros_vcu
+Description: Description of ros_vcu
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: roscpp control_msgs sensor_driver_msgs

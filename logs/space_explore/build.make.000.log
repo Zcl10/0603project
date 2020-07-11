@@ -1,0 +1,21 @@
+[35m[1mScanning dependencies of target space_explore_gencfg[0m
+[ 10%] [34m[1mGenerating parameter files from Visual[0m
+[ 20%] [34m[1mGenerating dynamic reconfigure files from /home/bit2/0603_project/tang_ws/devel/.private/space_explore/share/space_explore/cfg/Visual.cfg: /home/bit2/0603_project/tang_ws/devel/.private/space_explore/include/space_explore/VisualConfig.h /home/bit2/0603_project/tang_ws/devel/.private/space_explore/lib/python2.7/dist-packages/space_explore/cfg/VisualConfig.py[0m
+Generating reconfiguration files for Visual in space_explore
+Wrote header file in /home/bit2/0603_project/tang_ws/devel/.private/space_explore/include/space_explore/VisualConfig.h
+[ 20%] Built target space_explore_gencfg
+[35m[1mScanning dependencies of target space_explore[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/space_explore.dir/src/space_explore.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/space_explore.dir/src/space_explore_visual_tools.cpp.o[0m
+[35m[1mScanning dependencies of target space_explore_genparam[0m
+[ 50%] Built target space_explore_genparam
+[ 60%] [32m[1mLinking CXX shared library /home/bit2/0603_project/tang_ws/devel/.private/space_explore/lib/libspace_explore.so[0m
+[ 60%] Built target space_explore
+[35m[1mScanning dependencies of target visualization_node[0m
+[35m[1mScanning dependencies of target modified_path_node[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/modified_path_node.dir/src/global_path_node.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/visualization_node.dir/src/visualization_node.cpp.o[0m
+[ 90%] [32m[1mLinking CXX executable /home/bit2/0603_project/tang_ws/devel/.private/space_explore/lib/space_explore/modified_path_node[0m
+[100%] [32m[1mLinking CXX executable /home/bit2/0603_project/tang_ws/devel/.private/space_explore/lib/space_explore/visualization_node[0m
+[100%] Built target modified_path_node
+[100%] Built target visualization_node

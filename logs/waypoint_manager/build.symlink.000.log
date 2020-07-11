@@ -1,0 +1,5 @@
+Symlinking /home/bit2/0603_project/tang_ws/devel/lib/waypoint_manager/route_publisher
+Symlinking /home/bit2/0603_project/tang_ws/devel/lib/waypoint_manager/waypoint_collection
+Symlinking /home/bit2/0603_project/tang_ws/devel/lib/pkgconfig/waypoint_manager.pc
+Symlinking /home/bit2/0603_project/tang_ws/devel/share/waypoint_manager/cmake/waypoint_managerConfig.cmake
+Symlinking /home/bit2/0603_project/tang_ws/devel/share/waypoint_manager/cmake/waypoint_managerConfig-version.cmake

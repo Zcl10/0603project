@@ -1,0 +1,9 @@
+[35m[1mScanning dependencies of target opt_utils[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/opt_utils.dir/src/base.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/opt_utils.dir/src/circle.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/opt_utils.dir/src/pose2d.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/opt_utils.dir/src/state2d.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/opt_utils.dir/src/stringprintf.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/opt_utils.dir/src/path_property.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library /home/bit2/0603_project/tang_ws/devel/.private/opt_utils/lib/libopt_utils.so[0m
+[100%] Built target opt_utils
